@@ -1,0 +1,78 @@
+name: Suggest an AArch64 game/build
+description: Submit an evidenced native Linux ARM64 game build
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please link an actual published Linux AArch64 binary. Source-only projects and x86 games via translation do not qualify.
+  - type: input
+    id: title
+    attributes:
+      label: Game title
+      placeholder: Example Game
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Game/project website
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: origin
+    attributes:
+      label: Who publishes the ARM64 build?
+      options:
+        - Upstream game developer
+        - Community port or builder
+        - Linux distribution
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Exact build/version and target
+      placeholder: v1.2.3 / Debian 13 arm64 / Linux glibc, etc.
+    validations:
+      required: true
+  - type: input
+    id: download
+    attributes:
+      label: Build/download/package URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence URL explicitly showing Linux ARM64
+      description: Could be the same as the build URL if architecture is plainly shown.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: tested
+    attributes:
+      label: Did you actually test this exact build?
+      options:
+        - No, architecture/build listing only
+        - Yes, works
+        - Yes, partially works
+        - Yes, broken
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Device, OS, install/launch instructions, limitations (if tested)
+      description: Don't claim Steam Frame support without a real test and reproducible details.
+      placeholder: Device, OS version, command, observations, logs...
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Submission checks
+      options:
+        - label: I am linking legal distribution sources and not uploading copyrighted game files.
+          required: true

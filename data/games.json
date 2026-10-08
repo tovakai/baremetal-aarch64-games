@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "games": [
+    {
+      "id": "0-ad",
+      "title": "0 A.D.",
+      "genre": "Real-time strategy",
+      "homepage": "https://play0ad.com/",
+      "builds": [
+        {
+          "version": "0.27.0-2+b1",
+          "kind": "distribution",
+          "format": "deb",
+          "target": "Debian 13 (Trixie)",
+          "url": "https://packages.debian.org/trixie/arm64/0ad",
+          "evidence_url": "https://packages.debian.org/trixie/arm64/0ad",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Debian arm64 package; SteamOS and Steam Frame compatibility not established."
+        }
+      ]
+    },
+    {
+      "id": "openttd",
+      "title": "OpenTTD",
+      "genre": "Transport simulation",
+      "homepage": "https://www.openttd.org/",
+      "builds": [
+        {
+          "version": "14.1-1+b2",
+          "kind": "distribution",
+          "format": "deb",
+          "target": "Debian 13 (Trixie)",
+          "url": "https://packages.debian.org/trixie/arm64/openttd",
+          "evidence_url": "https://packages.debian.org/trixie/arm64/openttd",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Debian arm64 package; SteamOS and Steam Frame compatibility not established."
+        }
+      ]
+    },
+    {
+      "id": "supertux",
+      "title": "SuperTux",
+      "genre": "Platformer",
+      "homepage": "https://www.supertux.org/",
+      "builds": [
+        {
+          "version": "0.6.3-3",
+          "kind": "distribution",
+          "format": "deb",
+          "target": "Debian 13 (Trixie)",
+          "url": "https://packages.debian.org/trixie/arm64/supertux",
+          "evidence_url": "https://packages.debian.org/trixie/arm64/supertux",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Debian arm64 package; SteamOS and Steam Frame compatibility not established."
+        }
+      ]
+    },
+    {
+      "id": "supertuxkart",
+      "title": "SuperTuxKart",
+      "genre": "Kart racing",
+      "homepage": "https://supertuxkart.net/",
+      "builds": [
+        {
+          "version": "1.4+dfsg-5+b1",
+          "kind": "distribution",
+          "format": "deb",
+          "target": "Debian 13 (Trixie)",
+          "url": "https://packages.debian.org/trixie/arm64/supertuxkart",
+          "evidence_url": "https://packages.debian.org/trixie/arm64/supertuxkart",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Debian arm64 package; SteamOS and Steam Frame compatibility not established."
+        }
+      ]
+    },
+    {
+      "id": "wesnoth",
+      "title": "The Battle for Wesnoth",
+      "genre": "Turn-based strategy",
+      "homepage": "https://www.wesnoth.org/",
+      "builds": [
+        {
+          "version": "1:1.18.5-1",
+          "kind": "distribution",
+          "format": "deb",
+          "target": "Debian 13 (Trixie)",
+          "url": "https://packages.debian.org/trixie/arm64/wesnoth-1.18",
+          "evidence_url": "https://packages.debian.org/trixie/arm64/wesnoth-1.18",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Use the versioned game package, not the architecture-independent 'wesnoth' metapackage. SteamOS/Frame untested."
+        }
+      ]
+    }
+  ]
+}
