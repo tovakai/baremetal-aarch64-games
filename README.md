@@ -9,7 +9,7 @@ An evidence-backed, community-maintained directory of **native Linux AArch64 (AR
 Each row describes a **specific build**, not a blanket promise about every version of a game. Links under **ARM64 evidence** identify either a published ARM64 release/package or a documented, reproducible native ARM64 conversion.
 
 <!-- catalog:start -->
-**124 games · 131 native AArch64 builds cataloged**
+**126 games · 133 native AArch64 builds cataloged**
 
 | Game | Genre | Version | Origin · Format | Target | ARM64 evidence | Device tests |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -19,6 +19,7 @@ Each row describes a **specific build**, not a blanket promise about every versi
 | [Asteroids Revenge](https://github.com/mlm-games/asteroids-revenge) | Arcade shooter | 0.15.2 | [Distribution · flatpak](https://flathub.org/en/apps/io.github.mlm_games.asteroids_revenge) | Flathub · Linux AArch64 | [Published](https://flathub.org/en/apps/io.github.mlm_games.asteroids_revenge) | — |
 | [Augustus (Caesar III)](https://flathub.org/en/apps/com.github.keriew.augustus) | City builder / enhanced source port | 4.0.0 | [Distribution · flatpak](https://flathub.org/en/apps/com.github.keriew.augustus) · Augustus contributors | Flathub · Linux AArch64 | [Published](https://flathub.org/en/apps/com.github.keriew.augustus) | — |
 | [Balatro](https://store.steampowered.com/app/2379780/Balatro/) | Roguelike deckbuilder | PortMaster package (rolling; retail game version user-supplied) | [Community · portmaster](https://github.com/PortsMaster/PortMaster-New/tree/main/ports/balatro) · nkahoang, Guandor, juanvillacortac | PortMaster handheld Linux AArch64 (device-specific) | [PortMaster package](https://github.com/PortsMaster/PortMaster-New/blob/main/ports/balatro/port.json) | — |
+| [Banjo-Kazooie: Recompiled](https://github.com/BanjoRecomp/BanjoRecomp) | 3D platformer / N64 static recompilation | 1.0.2 | [Community · tarball](https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-ARM64.tar.gz) · BanjoRecomp contributors | Portable Linux AArch64 · native N64 static recompilation | [Published](https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.2) | — |
 | [BeamLab](https://wet-cement-studios.itch.io/beamlab) | Rhythm / puzzle | 0.4.0 | [Upstream · standalone](https://wet-cement-studios.itch.io/beamlab) | Developer-provided Linux AArch64 | [Published](https://wet-cement-studios.itch.io/beamlab) | — |
 | [Bloodsucker!](https://tanm.itch.io/bloodsucker) | 3D arcade / action | unversioned (itch.io) | [Upstream · standalone](https://tanm.itch.io/bloodsucker) | Developer-provided Linux AArch64 | [Published](https://tanm.itch.io/bloodsucker) | — |
 | [Brotato](https://store.steampowered.com/app/1942280/Brotato/) | Arena survival / roguelite | 1.1.14.6 | [Community · conversion](https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai) · tovakai | Steam Frame · Linux AArch64 | [Verified conversion](https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility) | [Steam Frame: works](https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility) |
@@ -143,6 +144,7 @@ Each row describes a **specific build**, not a blanket promise about every versi
 | [Xash3D FWGS (Half-Life)](https://github.com/FWGS/xash3d-fwgs) | First-person shooter / engine recreation | rolling continuous (2026-10-04) | [Community · tarball](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-linux-arm64.tar.gz) · FWGS contributors | Linux AArch64 · rolling portable archive | [Published](https://github.com/FWGS/xash3d-fwgs/releases/tag/continuous) | — |
 | [Xonotic](https://xonotic.org/) | Arena FPS | 0.8.6 | [Distribution · flatpak](https://flathub.org/en/apps/org.xonotic.Xonotic) | Flathub · Linux AArch64 | [Published](https://flathub.org/en/apps/org.xonotic.Xonotic) | — |
 | [YetAnotherShitPlatformingGame](https://sami9889.itch.io/yetanothershitplatforminggame) | 3D physics platformer | early-access demo (2026) | [Upstream · deb](https://sami9889.itch.io/yetanothershitplatforminggame) | Developer-provided Debian AArch64 | [Published](https://sami9889.itch.io/yetanothershitplatforminggame) | — |
+| [Zelda 64: Recompiled (Majora's Mask)](https://github.com/Zelda64Recomp/Zelda64Recomp) | Action adventure / N64 static recompilation | 1.2.2 | [Community · standalone](https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-ARM64.zip) · Zelda64Recomp contributors | Portable Linux AArch64 · native N64 static recompilation | [Published](https://github.com/Zelda64Recomp/Zelda64Recomp/releases/tag/v1.2.2) | — |
 | [ZeroSpades](https://flathub.org/en/apps/io.github.zerospades.ZeroSpades) | Voxel FPS / multiplayer community fork | 0.0.9 | [Distribution · flatpak](https://flathub.org/en/apps/io.github.zerospades.ZeroSpades) · ZeroSpades contributors | Flathub · Linux AArch64 | [Published](https://flathub.org/en/apps/io.github.zerospades.ZeroSpades) | — |
 <!-- catalog:end -->
 
@@ -166,6 +168,10 @@ flatpak run org.openmw.OpenMW
 ```
 
 Get a game's exact Flatpak application ID from its `notes` in [`data/games.json`](data/games.json) or its Flathub listing. Engine replacements (e.g., OpenMW, OpenRCT2, Raze) may need legally acquired original game data. You may need additional controller/windowing setup on Steam Frame.
+
+## N64 native recompilations
+
+Modern N64 static recompilation ports translate the original game's machine code into native host code *at build time*. These are **not runtime console emulators**. The catalog now includes Pokémon Snap, Donkey Kong 64, Star Fox 64, Banjo-Kazooie, and Majora's Mask ARM64 builds. Original game ROMs are **not distributed**; users must supply their own lawfully acquired compatible game data. These are published ARM64 release assets, not newly tested Steam Frame games. See [N64 recompilation release evidence](docs/n64-recompiled-2026-10-08.md).
 
 ## PortMaster handheld community ports
 
@@ -204,4 +210,4 @@ See [the verification guide](docs/verification.md) for `file`/`readelf` commands
 
 ## Project status
 
-As of **2026-10-08**, the catalog has **124 distinct games and 131 build entries**. This pass adds 10 games and 12 PortMaster-supported ARM64 packages (including separate additional builds of OpenTTD and OpenMW). Entries are backed by an AArch64-specific PortMaster manifest and a native launch route, not by Steam Frame playtesting. The two tovakai player-owned conversions retain their gameplay status. We do not redistribute copyrighted commercial game assets or ROMs.
+As of **2026-10-08**, the catalog contains **126 games and 133 build records**, including native community source ports, static N64 recompilations, PortMaster-specific ARM64 packages, official ARM64 games, and tovakai's gameplay-tested conversions. The latest N64 entries are architecture-verified GitHub release assets, **not** new Steam Frame gameplay reports. Community reimplementations and recompilations generally require original game data, which this repository does not distribute.

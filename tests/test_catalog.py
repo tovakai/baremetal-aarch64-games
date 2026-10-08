@@ -20,11 +20,11 @@ class CatalogTests(unittest.TestCase):
         return copy.deepcopy(self.original)
 
     def test_seed_is_valid(self):
-        self.assertEqual(validate_catalog(self.fresh()), (124, 131))
+        self.assertEqual(validate_catalog(self.fresh()), (126, 133))
 
     def test_generated_table_and_device_test_provenance(self):
         result = render_catalog(self.fresh())
-        self.assertEqual(result.count("[Published]("), 117)
+        self.assertEqual(result.count("[Published]("), 119)
         self.assertEqual(result.count("[PortMaster package]("), 12)
         self.assertEqual(result.count("[Verified conversion]("), 2)
         self.assertIn("tovakai", result)
