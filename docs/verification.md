@@ -2,7 +2,7 @@
 
 ## Evidence tiers
 
-1. **Architecture listed:** an official or distro release lists a Linux `aarch64` / `arm64` build. This is sufficient for a `builds` entry when the listing identifies an actual published binary package. This is **not** an execution test.
+1. **Architecture listed:** an official or distro release lists a Linux `aarch64` / `arm64` build. This is sufficient for a `builds` entry when the listing identifies an actual published binary package. This is **not** an execution test. Flathub app pages explicitly listing `Available Architectures: aarch64` qualify as distribution-package evidence, even if the package is community-maintained; check the package's manifest when claims are unclear.
 2. **Binary inspected:** a downloaded executable is confirmed as Linux AArch64 by `file` and/or `readelf`. Mention this in the report, including source URL and version.
 3. **Conversion verified:** a user-owned game is converted with a documented AArch64-native engine/runtime, with a version-specific test showing **actual gameplay** (not just detection or package output). Link the converter/recipe and the report; do not host commercial game assets.
 4. **Device tested:** that exact build is run on identified hardware and OS, with result and reproduction details. Only this level earns a `Tested` label in the catalog.

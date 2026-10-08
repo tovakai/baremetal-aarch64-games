@@ -20,11 +20,11 @@ class CatalogTests(unittest.TestCase):
         return copy.deepcopy(self.original)
 
     def test_seed_is_valid(self):
-        self.assertEqual(validate_catalog(self.fresh()), (9, 9))
+        self.assertEqual(validate_catalog(self.fresh()), (45, 46))
 
-    def test_generated_table_has_five_entries_and_no_fake_tests(self):
+    def test_generated_table_and_device_test_provenance(self):
         result = render_catalog(self.fresh())
-        self.assertEqual(result.count("[Published]("), 7)
+        self.assertEqual(result.count("[Published]("), 44)
         self.assertEqual(result.count("[Verified conversion]("), 2)
         self.assertIn("Tovakai (Anthon)", result)
         self.assertEqual(result.count("Steam Frame: works"), 4)

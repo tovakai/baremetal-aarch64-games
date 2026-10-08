@@ -21,6 +21,44 @@
       ]
     },
     {
+      "id": "armagetron-advanced",
+      "title": "Armagetron Advanced",
+      "genre": "Arcade / lightcycle",
+      "homepage": "https://www.armagetronad.org/",
+      "builds": [
+        {
+          "version": "0.2.9.3.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.armagetronad.ArmagetronAdvanced",
+          "evidence_url": "https://flathub.org/en/apps/org.armagetronad.ArmagetronAdvanced",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.armagetronad.ArmagetronAdvanced. A native 3D lightcycle game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "asteroids-revenge",
+      "title": "Asteroids Revenge",
+      "genre": "Arcade shooter",
+      "homepage": "https://github.com/mlm-games/asteroids-revenge",
+      "builds": [
+        {
+          "version": "0.15.2",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.mlm_games.asteroids_revenge",
+          "evidence_url": "https://flathub.org/en/apps/io.github.mlm_games.asteroids_revenge",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.mlm_games.asteroids_revenge. Small independent arcade shooter; Steam Frame not tested."
+        }
+      ]
+    },
+    {
       "id": "brotato",
       "title": "Brotato",
       "genre": "Arena survival / roguelite",
@@ -45,6 +83,139 @@
             }
           ],
           "notes": "Player-owned native ARM64 conversion via Tovakai, using pinned Godot 3.7-dev1 and GodotSteam 3.30 compatibility runtime. Completed a full gameplay run without issues. This is not an official ARM64 release. No proprietary game files redistributed."
+        }
+      ]
+    },
+    {
+      "id": "candy-wrapper",
+      "title": "Candy Wrapper",
+      "genre": "Arcade platformer",
+      "homepage": "https://hhoney.net",
+      "builds": [
+        {
+          "version": "2026.03.15",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/net.hhoney.candy",
+          "evidence_url": "https://flathub.org/en/apps/net.hhoney.candy",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.hhoney.candy. Independent screen-wrapping arcade game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "cataclysm-bright-nights",
+      "title": "Cataclysm: Bright Nights",
+      "genre": "Survival roguelike",
+      "homepage": "https://www.cataclysmbn.org",
+      "builds": [
+        {
+          "version": "0.12.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.cataclysmbn.CataclysmBN",
+          "evidence_url": "https://flathub.org/en/apps/org.cataclysmbn.CataclysmBN",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.cataclysmbn.CataclysmBN. Separate game fork from Cataclysm: Dark Days Ahead; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "cataclysm-dark-days-ahead",
+      "title": "Cataclysm: Dark Days Ahead",
+      "genre": "Survival roguelike",
+      "homepage": "https://www.cataclysmdda.org",
+      "builds": [
+        {
+          "version": "0.I",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.cataclysmdda.CataclysmDDA",
+          "evidence_url": "https://flathub.org/en/apps/org.cataclysmdda.CataclysmDDA",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.cataclysmdda.CataclysmDDA. Stable 0.I branch package; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "cave-story-nx",
+      "title": "Cave Story NX",
+      "genre": "Action adventure / platformer",
+      "homepage": "https://gitlab.com/coringao/cavestory-nx",
+      "builds": [
+        {
+          "version": "1.3.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.gitlab.coringao.cavestory-nx",
+          "evidence_url": "https://flathub.org/en/apps/com.gitlab.coringao.cavestory-nx",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.gitlab.coringao.cavestory-nx. Community-maintained NXEngine-evo version of Cave Story. This is not an official game release. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "ddnet",
+      "title": "DDNet",
+      "genre": "Co-op platformer",
+      "homepage": "https://ddnet.org/",
+      "builds": [
+        {
+          "version": "20.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/tw.ddnet.ddnet",
+          "evidence_url": "https://flathub.org/en/apps/tw.ddnet.ddnet",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: tw.ddnet.ddnet. Third-party/unverified Flatpak of DDNet; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "doukutsu-rs",
+      "title": "doukutsu-rs (Cave Story engine)",
+      "genre": "Action adventure / platformer",
+      "homepage": "https://doukutsu.rs",
+      "builds": [
+        {
+          "version": "1.0.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.doukutsu_rs.doukutsu-rs",
+          "evidence_url": "https://flathub.org/en/apps/io.github.doukutsu_rs.doukutsu-rs",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.doukutsu_rs.doukutsu-rs. Modern Rust Cave Story engine; requires user-provided compatible Cave Story game data. Native ARM64 runtime availability does not mean copyrighted game data is included. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "endless-sky",
+      "title": "Endless Sky",
+      "genre": "Space trading / adventure",
+      "homepage": "https://endless-sky.github.io/",
+      "builds": [
+        {
+          "version": "0.11.2",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.endless_sky.endless_sky",
+          "evidence_url": "https://flathub.org/en/apps/io.github.endless_sky.endless_sky",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.endless_sky.endless_sky. Open-source space exploration, trading, and combat; Steam Frame not tested."
         }
       ]
     },
@@ -77,6 +248,55 @@
       ]
     },
     {
+      "id": "freeciv",
+      "title": "Freeciv",
+      "genre": "Turn-based 4X strategy",
+      "homepage": "https://www.freeciv.org/",
+      "builds": [
+        {
+          "version": "3.2.6",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.freeciv.qt",
+          "evidence_url": "https://flathub.org/en/apps/org.freeciv.qt",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.freeciv.qt. Native Qt-based Freeciv client; cataloged as one build of Freeciv. Steam Frame not tested."
+        },
+        {
+          "version": "3.2.6",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64 (SDL2 frontend)",
+          "url": "https://flathub.org/en/apps/org.freeciv.sdl2",
+          "evidence_url": "https://flathub.org/en/apps/org.freeciv.sdl2",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.freeciv.sdl2. Second Freeciv client package; not a separate game. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "freeciv21",
+      "title": "Freeciv21",
+      "genre": "Turn-based 4X strategy",
+      "homepage": "https://longturn.net/",
+      "builds": [
+        {
+          "version": "3.1.2",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/net.longturn.freeciv21",
+          "evidence_url": "https://flathub.org/en/apps/net.longturn.freeciv21",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.longturn.freeciv21. Separate Freeciv fork with competitive multiplayer focus; Steam Frame not tested."
+        }
+      ]
+    },
+    {
       "id": "half-life-alyx",
       "title": "Half-Life: Alyx",
       "genre": "VR first-person shooter",
@@ -101,6 +321,63 @@
             }
           ],
           "notes": "Valve's September 14, 2026 announcement explicitly identifies a native ARM64/aarch64 Steam Frame standalone port. Independent hands-on test used pre-release access; this test is not a personal user report."
+        }
+      ]
+    },
+    {
+      "id": "hedgewars",
+      "title": "Hedgewars",
+      "genre": "Turn-based artillery",
+      "homepage": "https://hedgewars.org/",
+      "builds": [
+        {
+          "version": "1.0.3",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.hedgewars.Hedgewars",
+          "evidence_url": "https://flathub.org/en/apps/org.hedgewars.Hedgewars",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.hedgewars.Hedgewars. Hedgehog-themed artillery game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "luanti",
+      "title": "Luanti (formerly Minetest)",
+      "genre": "Voxel sandbox",
+      "homepage": "https://www.luanti.org/",
+      "builds": [
+        {
+          "version": "5.17.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.luanti.luanti",
+          "evidence_url": "https://flathub.org/en/apps/org.luanti.luanti",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.luanti.luanti. Voxel game platform with downloadable games and mods; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "mindustry",
+      "title": "Mindustry",
+      "genre": "Tower defense / factory",
+      "homepage": "https://mindustrygame.github.io/",
+      "builds": [
+        {
+          "version": "v159.7",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.github.Anuken.Mindustry",
+          "evidence_url": "https://flathub.org/en/apps/com.github.Anuken.Mindustry",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.github.Anuken.Mindustry. Community-provided Flatpak not verified by Anuken; Java-based game packaged for aarch64, using a native architecture runtime. Steam Frame not tested."
         }
       ]
     },
@@ -133,6 +410,158 @@
       ]
     },
     {
+      "id": "naikari",
+      "title": "Naikari: Eye of Chaos",
+      "genre": "Space trading / adventure",
+      "homepage": "https://naikari.github.io/",
+      "builds": [
+        {
+          "version": "0.12.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.naikari.Naikari",
+          "evidence_url": "https://flathub.org/en/apps/io.github.naikari.Naikari",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.naikari.Naikari. Third-party Flatpak of space exploration game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "odamex",
+      "title": "Odamex",
+      "genre": "Classic FPS / Doom source port",
+      "homepage": "https://odamex.net/",
+      "builds": [
+        {
+          "version": "12.3.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/net.odamex.Odamex",
+          "evidence_url": "https://flathub.org/en/apps/net.odamex.Odamex",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.odamex.Odamex. Doom source port: use legally acquired IWAD or free compatible game data. Native engine is not a distribution of commercial Doom games. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "openarena",
+      "title": "OpenArena (Quake3e build)",
+      "genre": "Arena FPS",
+      "homepage": "https://flathub.org/en/apps/io.github.ec_.Quake3e.OpenArena",
+      "builds": [
+        {
+          "version": "0.8.8",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.ec_.Quake3e.OpenArena",
+          "evidence_url": "https://flathub.org/en/apps/io.github.ec_.Quake3e.OpenArena",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.ec_.Quake3e.OpenArena. Community Flatpak uses Quake3e with OpenArena assets; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "openhv",
+      "title": "OpenHV",
+      "genre": "Real-time strategy",
+      "homepage": "https://www.openhv.net/",
+      "builds": [
+        {
+          "version": "20250725",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.openhv.OpenHV",
+          "evidence_url": "https://flathub.org/en/apps/io.github.openhv.OpenHV",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.openhv.OpenHV. Standalone original sci-fi RTS, not a commercial C&C download; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "openlierox",
+      "title": "OpenLieroX",
+      "genre": "Multiplayer arcade shooter",
+      "homepage": "https://www.openlierox.net/",
+      "builds": [
+        {
+          "version": "0.59 beta10",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/net.sourceforge.OpenLieroX",
+          "evidence_url": "https://flathub.org/en/apps/net.sourceforge.OpenLieroX",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.sourceforge.OpenLieroX. Older worm-themed side-scrolling shooter; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "openmw",
+      "title": "OpenMW",
+      "genre": "RPG / Morrowind engine",
+      "homepage": "https://openmw.org/",
+      "builds": [
+        {
+          "version": "0.51.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.openmw.OpenMW",
+          "evidence_url": "https://flathub.org/en/apps/org.openmw.OpenMW",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.openmw.OpenMW. Native engine replacement, not a free copy of The Elder Scrolls III: Morrowind. Legally acquired Morrowind data is required. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "openra",
+      "title": "OpenRA",
+      "genre": "Real-time strategy",
+      "homepage": "https://www.openra.net/",
+      "builds": [
+        {
+          "version": "release-20250330",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/net.openra.OpenRA",
+          "evidence_url": "https://flathub.org/en/apps/net.openra.OpenRA",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.openra.OpenRA. Native open-source engine plus bundled classic RTS mods. Some original game assets may be downloaded at first launch or loaded from legitimate discs. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "openrct2",
+      "title": "OpenRCT2",
+      "genre": "Theme park simulation",
+      "homepage": "https://openrct2.io/",
+      "builds": [
+        {
+          "version": "0.5.5",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.openrct2.OpenRCT2",
+          "evidence_url": "https://flathub.org/en/apps/io.openrct2.OpenRCT2",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.openrct2.OpenRCT2. Open-source RCT2 engine. Requires original RollerCoaster Tycoon 2 or RollerCoaster Tycoon Classic game files, acquired separately. Steam Frame not tested."
+        }
+      ]
+    },
+    {
       "id": "openttd",
       "title": "OpenTTD",
       "genre": "Transport simulation",
@@ -148,6 +577,120 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Debian arm64 package; SteamOS and Steam Frame compatibility not established."
+        }
+      ]
+    },
+    {
+      "id": "opentyrian",
+      "title": "OpenTyrian",
+      "genre": "Scrolling shoot-'em-up",
+      "homepage": "https://github.com/opentyrian/opentyrian",
+      "builds": [
+        {
+          "version": "v2.1.20221123",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.github.opentyrian.OpenTyrian",
+          "evidence_url": "https://flathub.org/en/apps/com.github.opentyrian.OpenTyrian",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.github.opentyrian.OpenTyrian. Open-source port of the classic shoot-'em-up Tyrian; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "raze",
+      "title": "Raze",
+      "genre": "Classic FPS / Build engine port",
+      "homepage": "https://raze.zdoom.org/",
+      "builds": [
+        {
+          "version": "1.11.0-1",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.zdoom.Raze",
+          "evidence_url": "https://flathub.org/en/apps/org.zdoom.Raze",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.zdoom.Raze. Native Build-engine source port for Duke Nukem 3D, Blood and other games. Commercial original game data must be obtained separately; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "shattered-pixel-dungeon",
+      "title": "Shattered Pixel Dungeon",
+      "genre": "Turn-based roguelike",
+      "homepage": "https://shatteredpixel.com/",
+      "builds": [
+        {
+          "version": "3.3.7",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.shatteredpixel.shatteredpixeldungeon",
+          "evidence_url": "https://flathub.org/en/apps/com.shatteredpixel.shatteredpixeldungeon",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.shatteredpixel.shatteredpixeldungeon. Community-maintained Flatpak of a Java game, packaged for native aarch64 runtime; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "sonic-robo-blast-2",
+      "title": "Sonic Robo Blast 2",
+      "genre": "3D platformer",
+      "homepage": "https://www.srb2.org/",
+      "builds": [
+        {
+          "version": "2.2.15",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.srb2.SRB2",
+          "evidence_url": "https://flathub.org/en/apps/org.srb2.SRB2",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.srb2.SRB2. Fan-made 3D Sonic game based on Doom Legacy, not an official Sega product; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "sonic-robo-blast-2-kart",
+      "title": "Sonic Robo Blast 2 Kart",
+      "genre": "Kart racer",
+      "homepage": "https://wiki.srb2.org/wiki/SRB2Kart",
+      "builds": [
+        {
+          "version": "1.6",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.srb2.SRB2Kart",
+          "evidence_url": "https://flathub.org/en/apps/org.srb2.SRB2Kart",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.srb2.SRB2Kart. SRB2 racing spin-off with a community-provided Flatpak; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "space-cadet-pinball",
+      "title": "Space Cadet Pinball",
+      "genre": "Pinball",
+      "homepage": "https://github.com/k4zmu2a/SpaceCadetPinball",
+      "builds": [
+        {
+          "version": "2.1.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.github.k4zmu2a.spacecadetpinball",
+          "evidence_url": "https://flathub.org/en/apps/com.github.k4zmu2a.spacecadetpinball",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.github.k4zmu2a.spacecadetpinball. Reverse-engineered game engine for classic Windows Space Cadet pinball, published as an aarch64 Flatpak. Steam Frame not tested."
         }
       ]
     },
@@ -205,6 +748,158 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Use the versioned game package, not the architecture-independent 'wesnoth' metapackage. SteamOS/Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "the-powder-toy",
+      "title": "The Powder Toy",
+      "genre": "Physics sandbox",
+      "homepage": "https://powdertoy.co.uk/",
+      "builds": [
+        {
+          "version": "100.1.400",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/uk.co.powdertoy.tpt",
+          "evidence_url": "https://flathub.org/en/apps/uk.co.powdertoy.tpt",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: uk.co.powdertoy.tpt. Physics/chemistry simulation sandbox with community-maintained Flatpak; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "the-ur-quan-masters-hd-megamod",
+      "title": "The Ur-Quan Masters HD MegaMod",
+      "genre": "Space adventure / classic revival",
+      "homepage": "https://uqm-mods.sourceforge.net/",
+      "builds": [
+        {
+          "version": "0.8.5",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/net.sourceforge.uqm_mods.UQM-MegaMod",
+          "evidence_url": "https://flathub.org/en/apps/net.sourceforge.uqm_mods.UQM-MegaMod",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.sourceforge.uqm_mods.UQM-MegaMod. Standalone Ur-Quan Masters high-definition community mod; package explicitly supports ARM64. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "unciv",
+      "title": "Unciv",
+      "genre": "Turn-based 4X strategy",
+      "homepage": "https://github.com/yairm210/Unciv",
+      "builds": [
+        {
+          "version": "4.21.19",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.yairm210.unciv",
+          "evidence_url": "https://flathub.org/en/apps/io.github.yairm210.unciv",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.yairm210.unciv. Java strategy game packaged with native aarch64 runtime. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "veloren",
+      "title": "Veloren",
+      "genre": "Voxel action RPG",
+      "homepage": "https://veloren.net/",
+      "builds": [
+        {
+          "version": "0.18.0-nightly",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/net.veloren.veloren",
+          "evidence_url": "https://flathub.org/en/apps/net.veloren.veloren",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.veloren.veloren. Nightly ARM64 Flatpak release; not a stable-version guarantee. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "warzone-2100",
+      "title": "Warzone 2100",
+      "genre": "Real-time strategy",
+      "homepage": "https://wz2100.net/",
+      "builds": [
+        {
+          "version": "4.7.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/net.wz2100.wz2100",
+          "evidence_url": "https://flathub.org/en/apps/net.wz2100.wz2100",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.wz2100.wz2100. Native RTS with both Vulkan and OpenGL-based backends; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "widelands",
+      "title": "Widelands",
+      "genre": "Settlement strategy / RTS",
+      "homepage": "https://www.widelands.org/",
+      "builds": [
+        {
+          "version": "1.3.1",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.widelands.Widelands",
+          "evidence_url": "https://flathub.org/en/apps/org.widelands.Widelands",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.widelands.Widelands. Original open-source settlement strategy game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "wolfenstein-blade-of-agony",
+      "title": "Wolfenstein: Blade of Agony",
+      "genre": "Retro FPS",
+      "homepage": "https://boa.realm667.com/",
+      "builds": [
+        {
+          "version": "3.1",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.realm667.Wolfenstein_Blade_of_Agony",
+          "evidence_url": "https://flathub.org/en/apps/com.realm667.Wolfenstein_Blade_of_Agony",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.realm667.Wolfenstein_Blade_of_Agony. Standalone story-driven GZDoom-based FPS (not official Wolfenstein); Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "xonotic",
+      "title": "Xonotic",
+      "genre": "Arena FPS",
+      "homepage": "https://xonotic.org/",
+      "builds": [
+        {
+          "version": "0.8.6",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/org.xonotic.Xonotic",
+          "evidence_url": "https://flathub.org/en/apps/org.xonotic.Xonotic",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.xonotic.Xonotic. Native ARM64 Flatpak of free arena FPS; Steam Frame not tested."
         }
       ]
     }
