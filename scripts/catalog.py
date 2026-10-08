@@ -18,7 +18,7 @@ README = ROOT / "README.md"
 START = "<!-- catalog:start -->"
 END = "<!-- catalog:end -->"
 KINDS = {"upstream", "community", "distribution"}
-FORMATS = {"deb", "rpm", "flatpak", "appimage", "tarball", "standalone", "other"}
+FORMATS = {"deb", "rpm", "flatpak", "appimage", "tarball", "standalone", "other", "steam", "conversion"}
 RESULTS = {"works", "partial", "broken"}
 SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 
@@ -90,7 +90,7 @@ def validate_catalog(data: object) -> tuple[int, int]:
             where = f"{loc}.builds[{j}]"
             build = fields(b, where,
                            {"version", "kind", "format", "target", "url", "evidence_url", "last_checked", "device_tests"},
-                           {"notes"})
+                           {"notes", "maintainer"})
             for key in ("version", "kind", "format", "target"):
                 text_field(build, key, where)
             require(build["kind"] in KINDS, where, f"kind must be one of {sorted(KINDS)}")
@@ -100,6 +100,8 @@ def validate_catalog(data: object) -> tuple[int, int]:
             date_field(build, "last_checked", where)
             if "notes" in build:
                 require(isinstance(build["notes"], str), where, "notes must be a string")
+            if "maintainer" in build:
+                text_field(build, "maintainer", where)
             fingerprint = tuple(build[k] for k in ("version", "kind", "format", "target"))
             require(fingerprint not in seen_builds, where, "duplicate build identity")
             seen_builds.add(fingerprint)
@@ -136,7 +138,10 @@ def render_catalog(data: dict) -> str:
         for build in sorted(game["builds"], key=lambda b: (b["target"], b["version"])):
             title = f"[{md(game['title'])}]({game['homepage']})"
             source = f"[{md(build['kind'].title())} · {md(build['format'])}]({build['url']})"
-            evidence = f"[Published]({build['evidence_url']})"
+            if build.get("maintainer"):
+                source += f" · {md(build['maintainer'])}"
+            label = "Verified conversion" if build["format"] == "conversion" else "Published"
+            evidence = f"[{label}]({build['evidence_url']})"
             test_info = ", ".join(
                 f"[{md(t['device'])}: {md(t['result'])}]({t['report_url']})"
                 for t in build["device_tests"]

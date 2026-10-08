@@ -4,9 +4,10 @@
 
 1. **Architecture listed:** an official or distro release lists a Linux `aarch64` / `arm64` build. This is sufficient for a `builds` entry when the listing identifies an actual published binary package. This is **not** an execution test.
 2. **Binary inspected:** a downloaded executable is confirmed as Linux AArch64 by `file` and/or `readelf`. Mention this in the report, including source URL and version.
-3. **Device tested:** that exact build is run on identified hardware and OS, with result and reproduction details. Only this level earns a `Tested` label in the catalog.
+3. **Conversion verified:** a user-owned game is converted with a documented AArch64-native engine/runtime, with a version-specific test showing **actual gameplay** (not just detection or package output). Link the converter/recipe and the report; do not host commercial game assets.
+4. **Device tested:** that exact build is run on identified hardware and OS, with result and reproduction details. Only this level earns a `Tested` label in the catalog.
 
-Do not silently promote a build from tier 1 to tier 3. A community build can be just as native as an upstream build, but record who published it.
+Do not silently promote a build from tier 1 to tier 3. A community build can be just as native as an upstream build, but record its maintainer and whether an artifact is actually distributed versus locally generated. A *verified conversion* does not imply a publicly available game download.
 
 ## Inspect a Linux binary
 

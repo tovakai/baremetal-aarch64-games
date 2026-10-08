@@ -21,6 +21,118 @@
       ]
     },
     {
+      "id": "brotato",
+      "title": "Brotato",
+      "genre": "Arena survival / roguelite",
+      "homepage": "https://store.steampowered.com/app/1942280/Brotato/",
+      "builds": [
+        {
+          "version": "1.1.14.6",
+          "kind": "community",
+          "format": "conversion",
+          "target": "Steam Frame · Linux AArch64",
+          "url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai",
+          "evidence_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility",
+          "last_checked": "2026-10-08",
+          "maintainer": "Tovakai (Anthon)",
+          "device_tests": [
+            {
+              "device": "Steam Frame",
+              "os": "SteamOS VR (exact version not recorded)",
+              "date": "2026-10-08",
+              "result": "works",
+              "report_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility"
+            }
+          ],
+          "notes": "Player-owned native ARM64 conversion via Tovakai, using pinned Godot 3.7-dev1 and GodotSteam 3.30 compatibility runtime. Completed a full gameplay run without issues. This is not an official ARM64 release. No proprietary game files redistributed."
+        }
+      ]
+    },
+    {
+      "id": "factorio",
+      "title": "Factorio",
+      "genre": "Factory building / automation",
+      "homepage": "https://factorio.com/",
+      "builds": [
+        {
+          "version": "2.1.21 (experimental)",
+          "kind": "upstream",
+          "format": "steam",
+          "target": "Linux AArch64 · Steam experimental / standalone",
+          "url": "https://factorio.com/download/experimental",
+          "evidence_url": "https://www.factorio.com/blog/post/fff-446",
+          "last_checked": "2026-10-08",
+          "maintainer": "Wube Software",
+          "device_tests": [
+            {
+              "device": "Steam Frame",
+              "os": "SteamOS (version not specified in Wube's report)",
+              "date": "2026-09-18",
+              "result": "works",
+              "report_url": "https://www.factorio.com/blog/post/fff-446"
+            }
+          ],
+          "notes": "Official native ARM64 port. Wube confirms Factorio is Steam Frame Certified. To run the ARM64 Steam build, opt into the 2.1 experimental branch; an official standalone ARM64 Linux download is also offered. Not a VR-native game."
+        }
+      ]
+    },
+    {
+      "id": "half-life-alyx",
+      "title": "Half-Life: Alyx",
+      "genre": "VR first-person shooter",
+      "homepage": "https://store.steampowered.com/app/546560/HalfLife_Alyx/",
+      "builds": [
+        {
+          "version": "2026-09-14 ARM64 update",
+          "kind": "upstream",
+          "format": "steam",
+          "target": "Steam Frame · standalone Linux AArch64 VR",
+          "url": "https://store.steampowered.com/app/546560/HalfLife_Alyx/",
+          "evidence_url": "https://steamcommunity.com/app/546560/announcements/",
+          "last_checked": "2026-10-08",
+          "maintainer": "Valve",
+          "device_tests": [
+            {
+              "device": "Steam Frame",
+              "os": "SteamOS (preview build; version not specified)",
+              "date": "2026-09-14",
+              "result": "works",
+              "report_url": "https://www.computerbase.de/artikel/gaming/valve-steam-frame-half-life-alyx-arm64-port.99351/"
+            }
+          ],
+          "notes": "Valve's September 14, 2026 announcement explicitly identifies a native ARM64/aarch64 Steam Frame standalone port. Independent hands-on test used pre-release access; this test is not a personal user report."
+        }
+      ]
+    },
+    {
+      "id": "my-pig-princess",
+      "title": "My Pig Princess",
+      "genre": "Visual novel",
+      "homepage": "https://www.patreon.com/CyanCapsule",
+      "builds": [
+        {
+          "version": "0.10.1",
+          "kind": "community",
+          "format": "conversion",
+          "target": "Steam Frame · Linux AArch64",
+          "url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai",
+          "evidence_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility",
+          "last_checked": "2026-10-08",
+          "maintainer": "Tovakai (Anthon)",
+          "device_tests": [
+            {
+              "device": "Steam Frame",
+              "os": "SteamOS VR (exact version not recorded)",
+              "date": "2026-10-08",
+              "result": "works",
+              "report_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility"
+            }
+          ],
+          "notes": "Player-owned native ARM64 conversion using Ren'Py 8.3.7 runtime. Gameplay confirmed on Steam Frame via Frametop Xwayland after preserving Python .pyc bytecode and executable permissions; no full playthrough claimed. This is not an official ARM64 release. Game assets obtained separately from rights holder."
+        }
+      ]
+    },
+    {
       "id": "openttd",
       "title": "OpenTTD",
       "genre": "Transport simulation",
