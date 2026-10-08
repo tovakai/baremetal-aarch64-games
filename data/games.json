@@ -78,6 +78,26 @@
       ]
     },
     {
+      "id": "augustus",
+      "title": "Augustus (Caesar III)",
+      "genre": "City builder / enhanced source port",
+      "homepage": "https://flathub.org/en/apps/com.github.keriew.augustus",
+      "builds": [
+        {
+          "version": "4.0.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.github.keriew.augustus",
+          "evidence_url": "https://flathub.org/en/apps/com.github.keriew.augustus",
+          "last_checked": "2026-10-08",
+          "maintainer": "Augustus contributors",
+          "device_tests": [],
+          "notes": "Flathub lists Available Architectures: aarch64. Application ID com.github.keriew.augustus. Community Caesar III gameplay-enhanced source port based on Julius. Requires a legal copy of Caesar III assets. Distinct game client from Julius. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "beamlab",
       "title": "BeamLab",
       "genre": "Rhythm / puzzle",
@@ -296,6 +316,26 @@
       ]
     },
     {
+      "id": "corsixth",
+      "title": "CorsixTH (Theme Hospital)",
+      "genre": "Hospital simulation / engine reimplementation",
+      "homepage": "https://flathub.org/en/apps/com.corsixth.corsixth",
+      "builds": [
+        {
+          "version": "0.70.1",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.corsixth.corsixth",
+          "evidence_url": "https://flathub.org/en/apps/com.corsixth.corsixth",
+          "last_checked": "2026-10-08",
+          "maintainer": "CorsixTH contributors",
+          "device_tests": [],
+          "notes": "Flathub lists Available Architectures: aarch64. Application ID com.corsixth.corsixth. Community reimplementation of Theme Hospital engine distributed as AArch64 Flatpak; requires purchased original game assets or legally available demo data. Not an official Theme Hospital ARM64 release; Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "countdown-count-down",
       "title": "Countdown Count Down",
       "genre": "Puzzle / arcade",
@@ -366,6 +406,26 @@
       ]
     },
     {
+      "id": "dethrace",
+      "title": "Dethrace (Carmageddon)",
+      "genre": "Vehicular combat / racing",
+      "homepage": "https://github.com/dethrace-labs/dethrace",
+      "builds": [
+        {
+          "version": "0.10.1",
+          "kind": "community",
+          "format": "tarball",
+          "target": "Linux AArch64 · portable archive",
+          "url": "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-linux-arm64.tar.gz",
+          "evidence_url": "https://github.com/dethrace-labs/dethrace/releases/tag/v0.10.1",
+          "last_checked": "2026-10-08",
+          "maintainer": "Dethrace contributors",
+          "device_tests": [],
+          "notes": "Published release asset: dethrace-v0.10.1-linux-arm64.tar.gz. Community reverse-engineering/reimplementation of Carmageddon, not an official Carmageddon ARM64 release. Requires legally obtained original Carmageddon game data; native Linux ARM64 binary, no Steam Frame test."
+        }
+      ]
+    },
+    {
       "id": "devilutionx",
       "title": "DevilutionX",
       "genre": "Action RPG / Diablo engine recreation",
@@ -382,6 +442,46 @@
           "maintainer": "DevilutionX contributors",
           "device_tests": [],
           "notes": "Open-source engine recreation of Diablo (1996). Requires legitimately obtained original Diablo data or supported shareware data. A Linux AArch64 archive is a published release asset; Steam Frame play has not been verified."
+        }
+      ]
+    },
+    {
+      "id": "dhewm3",
+      "title": "dhewm3 (Doom 3)",
+      "genre": "First-person shooter / engine port",
+      "homepage": "https://github.com/dhewm/dhewm3",
+      "builds": [
+        {
+          "version": "1.5.5",
+          "kind": "community",
+          "format": "tarball",
+          "target": "Linux AArch64 · portable archive",
+          "url": "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_Linux_arm64.tar.gz",
+          "evidence_url": "https://github.com/dhewm/dhewm3/releases/tag/1.5.5",
+          "last_checked": "2026-10-08",
+          "maintainer": "dhewm3 contributors",
+          "device_tests": [],
+          "notes": "Published release asset: dhewm3-1.5.5_Linux_arm64.tar.gz. Native ARM64 Doom 3 source port, requires a legal copy of Doom 3 original game files. Source port is not an official ARM64 Doom 3 game package; Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "donkey-kong-64-recompiled",
+      "title": "Donkey Kong 64: Recompiled",
+      "genre": "3D platformer / N64 native recompilation",
+      "homepage": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled",
+      "builds": [
+        {
+          "version": "1.0.3",
+          "kind": "community",
+          "format": "standalone",
+          "target": "Linux AArch64 · native recompilation ZIP",
+          "url": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Linux-ARM64-Release-1-0-3.zip",
+          "evidence_url": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/tag/v1.0.3",
+          "last_checked": "2026-10-08",
+          "maintainer": "Rainchus",
+          "device_tests": [],
+          "notes": "Published release asset: DK64Recompiled-Linux-ARM64-Release-1-0-3.zip. Native ARM64 static recompilation for Donkey Kong 64, not an emulator. Requires original game ROM dump owned by user; copyrighted ROM not included. Linux ARM64 package is a distinct published release asset; Steam Frame compatibility untested."
         }
       ]
     },
@@ -458,6 +558,26 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "ARM64 download identifier: dfp-linux-arm64-1.0.14.tar.bz2. Paid game, minimum $8 USD on publisher listing. ARM64 archive file claims 1.0.14, while itch labels that file Version 11. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "dxx-rebirth",
+      "title": "DXX-Rebirth (Descent 1 & 2)",
+      "genre": "6DOF space combat / source port",
+      "homepage": "https://flathub.org/en/apps/io.github.dxx_rebirth.dxx-rebirth",
+      "builds": [
+        {
+          "version": "0.60.0-beta2+a531f57",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.dxx_rebirth.dxx-rebirth",
+          "evidence_url": "https://flathub.org/en/apps/io.github.dxx_rebirth.dxx-rebirth",
+          "last_checked": "2026-10-08",
+          "maintainer": "DXX-Rebirth contributors",
+          "device_tests": [],
+          "notes": "Flathub lists Available Architectures: aarch64. Application ID io.github.dxx_rebirth.dxx-rebirth. Native AArch64 source port for Descent and Descent II; legally acquired original game assets required. Beta package; not a distributed copy of the commercial games. Steam Frame untested."
         }
       ]
     },
@@ -577,6 +697,26 @@
       ]
     },
     {
+      "id": "g1r-deluxe",
+      "title": "G1R Deluxe (Gen1Recomp)",
+      "genre": "RPG / Pokémon engine recreation",
+      "homepage": "https://github.com/bryanthaboi/gen1recomp",
+      "builds": [
+        {
+          "version": "0.3.63",
+          "kind": "community",
+          "format": "appimage",
+          "target": "Linux AArch64 · AppImage",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.63/gen1recomp-0.3.63-linux-arm64.AppImage",
+          "evidence_url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.63",
+          "last_checked": "2026-10-08",
+          "maintainer": "bryanthaboi",
+          "device_tests": [],
+          "notes": "Published release asset: gen1recomp-0.3.63-linux-arm64.AppImage. Unofficial Lua/LÖVE2D native engine recreation supporting classic Pokémon generations. User supplies their legally acquired compatible original ROM for game data and artwork; no copyrighted ROM included. Native AArch64 AppImage bundles compiled LÖVE/SDL libraries. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "giornata",
       "title": "Giornata - A Day's Work",
       "genre": "Interactive fiction / art",
@@ -681,6 +821,26 @@
       ]
     },
     {
+      "id": "hurrican",
+      "title": "Hurrican",
+      "genre": "Action platformer / freeware game port",
+      "homepage": "https://flathub.org/en/apps/io.github.hurricangame.hurrican",
+      "builds": [
+        {
+          "version": "1.0.1",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.hurricangame.hurrican",
+          "evidence_url": "https://flathub.org/en/apps/io.github.hurricangame.hurrican",
+          "last_checked": "2026-10-08",
+          "maintainer": "HurricanGame contributors",
+          "device_tests": [],
+          "notes": "Flathub lists Available Architectures: aarch64. Application ID io.github.hurricangame.hurrican. Native Linux AArch64 Flatpak of the freeware platform-shooter Hurrican, packaged by the Flathub community. Do not confuse this with an official standalone ARM64 developer installer. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "jigs-saw-puzzler",
       "title": "Jig's Saw Puzzler",
       "genre": "Jigsaw / puzzle",
@@ -696,6 +856,26 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Developer download: jigs-saw-puzzler-v0.1beta2-linux-arm64.zip. Godot jigsaw puzzle beta with developer-published Linux ARM64 ZIP. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "julius",
+      "title": "Julius (Caesar III)",
+      "genre": "City builder / engine reimplementation",
+      "homepage": "https://flathub.org/en/apps/com.github.bvschaik.julius",
+      "builds": [
+        {
+          "version": "1.8.0",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/com.github.bvschaik.julius",
+          "evidence_url": "https://flathub.org/en/apps/com.github.bvschaik.julius",
+          "last_checked": "2026-10-08",
+          "maintainer": "Julius contributors",
+          "device_tests": [],
+          "notes": "Flathub lists Available Architectures: aarch64. Application ID com.github.bvschaik.julius. Community Caesar III engine reimplementation distributed as an AArch64 Flatpak. Requires legally acquired Caesar III original data. Steam Frame untested."
         }
       ]
     },
@@ -753,6 +933,38 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "ARM64 download identifier: Linux ARM64 (experimental). Developer explicitly labels Linux ARM64 build EXPERIMENTAL. Its archive filename and game version were not visible. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "lba2-classic-community",
+      "title": "Little Big Adventure 2 Classic Community",
+      "genre": "Action adventure / engine port",
+      "homepage": "https://github.com/LBALab/lba2-classic-community",
+      "builds": [
+        {
+          "version": "0.12.0",
+          "kind": "community",
+          "format": "appimage",
+          "target": "Linux AArch64 · AppImage",
+          "url": "https://github.com/LBALab/lba2-classic-community/releases/download/v0.12.0/lba2cc-0.12.0-anylinux-aarch64.AppImage",
+          "evidence_url": "https://github.com/LBALab/lba2-classic-community/releases/tag/v0.12.0",
+          "last_checked": "2026-10-08",
+          "maintainer": "LBALab contributors",
+          "device_tests": [],
+          "notes": "Published release asset: lba2cc-0.12.0-anylinux-aarch64.AppImage. Community-maintained original Twinsen's Odyssey engine source port. Own and provide original Little Big Adventure 2 game assets (Steam/GOG/CD); project does not redistribute game data. Flows directly through a native Linux ARM64 binary; Steam Frame untested."
+        },
+        {
+          "version": "0.12.0",
+          "kind": "community",
+          "format": "tarball",
+          "target": "Linux AArch64 · portable archive",
+          "url": "https://github.com/LBALab/lba2-classic-community/releases/download/v0.12.0/lba2cc-0.12.0-linux-aarch64.tar.gz",
+          "evidence_url": "https://github.com/LBALab/lba2-classic-community/releases/tag/v0.12.0",
+          "last_checked": "2026-10-08",
+          "maintainer": "LBALab contributors",
+          "device_tests": [],
+          "notes": "Published release asset: lba2cc-0.12.0-linux-aarch64.tar.gz. Community-maintained original Twinsen's Odyssey engine source port. Own and provide original Little Big Adventure 2 game assets (Steam/GOG/CD); project does not redistribute game data. Flows directly through a native Linux ARM64 binary; Steam Frame untested."
         }
       ]
     },
@@ -1233,6 +1445,26 @@
       ]
     },
     {
+      "id": "pokemon-snap-recompiled",
+      "title": "Pokémon Snap: Recompiled",
+      "genre": "Rail photography / N64 native recompilation",
+      "homepage": "https://github.com/JackandBeans/Snap64Recomp",
+      "builds": [
+        {
+          "version": "1.1.2",
+          "kind": "community",
+          "format": "tarball",
+          "target": "Linux AArch64 · experimental native recompilation",
+          "url": "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.2/Snap64Recomp-1.1.2-linux-arm64.tar.gz",
+          "evidence_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.2",
+          "last_checked": "2026-10-08",
+          "maintainer": "JackandBeans",
+          "device_tests": [],
+          "notes": "Published release asset: Snap64Recomp-1.1.2-linux-arm64.tar.gz. Native static recompilation of the Nintendo 64 Pokémon Snap game (not emulation). Requires your own legally obtained US Pokémon Snap cartridge dump; no ROM included. ARM64 build produced by GitHub ARM runner but publisher says real ARM64 hardware gameplay NOT yet tested. Needs Vulkan 1.2 and other desktop dependencies; Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "pond-protect",
       "title": "Pond Protect",
       "genre": "Arcade shoot-'em-up",
@@ -1533,6 +1765,26 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.github.k4zmu2a.spacecadetpinball. Reverse-engineered game engine for classic Windows Space Cadet pinball, published as an aarch64 Flatpak. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "star-fox-64-recompiled",
+      "title": "Star Fox 64: Recompiled",
+      "genre": "Rail shooter / N64 native recompilation",
+      "homepage": "https://github.com/sonicdcer/Starfox64Recomp",
+      "builds": [
+        {
+          "version": "1.0.3",
+          "kind": "community",
+          "format": "standalone",
+          "target": "Linux AArch64 · native recompilation ZIP",
+          "url": "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Linux-ARM64-Release.zip",
+          "evidence_url": "https://github.com/sonicdcer/Starfox64Recomp/releases/tag/1.0.3",
+          "last_checked": "2026-10-08",
+          "maintainer": "Sonic Dreamcaster",
+          "device_tests": [],
+          "notes": "Published release asset: Starfox64Recompiled-v1.0.3-Linux-ARM64-Release.zip. Community native static recompilation of Star Fox 64. Requires a legally sourced original game ROM; no Nintendo-owned ROM included. Verified GitHub release asset explicitly targets Linux ARM64. No Steam Frame gameplay test."
         }
       ]
     },
@@ -1936,6 +2188,38 @@
       ]
     },
     {
+      "id": "xash3d-fwgs",
+      "title": "Xash3D FWGS (Half-Life)",
+      "genre": "First-person shooter / engine recreation",
+      "homepage": "https://github.com/FWGS/xash3d-fwgs",
+      "builds": [
+        {
+          "version": "rolling continuous (2026-10-04)",
+          "kind": "community",
+          "format": "appimage",
+          "target": "Linux AArch64 · rolling AppImage",
+          "url": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-arm64.AppImage",
+          "evidence_url": "https://github.com/FWGS/xash3d-fwgs/releases/tag/continuous",
+          "last_checked": "2026-10-08",
+          "maintainer": "FWGS contributors",
+          "device_tests": [],
+          "notes": "Published release asset: xash3d-fwgs-arm64.AppImage. Community GoldSrc/Half-Life engine recreation. Requires legally acquired Half-Life game assets; the ARM64 engine archives do NOT include the proprietary full game. Rolling development release, not a stable version, and Steam Frame untested."
+        },
+        {
+          "version": "rolling continuous (2026-10-04)",
+          "kind": "community",
+          "format": "tarball",
+          "target": "Linux AArch64 · rolling portable archive",
+          "url": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-linux-arm64.tar.gz",
+          "evidence_url": "https://github.com/FWGS/xash3d-fwgs/releases/tag/continuous",
+          "last_checked": "2026-10-08",
+          "maintainer": "FWGS contributors",
+          "device_tests": [],
+          "notes": "Published release asset: xash3d-fwgs-linux-arm64.tar.gz. Community GoldSrc/Half-Life engine recreation. Requires legally acquired Half-Life game assets; the ARM64 engine archives do NOT include the proprietary full game. Rolling development release, not a stable version, and Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "xonotic",
       "title": "Xonotic",
       "genre": "Arena FPS",
@@ -1970,6 +2254,26 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "ARM64 download identifier: YetAnotherShitPlatformingGame-Linux-arm64.deb. Early-access demo, developer ARM64 .deb is not a generic installer for SteamOS. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "zerospades",
+      "title": "ZeroSpades",
+      "genre": "Voxel FPS / multiplayer community fork",
+      "homepage": "https://flathub.org/en/apps/io.github.zerospades.ZeroSpades",
+      "builds": [
+        {
+          "version": "0.0.9",
+          "kind": "distribution",
+          "format": "flatpak",
+          "target": "Flathub · Linux AArch64",
+          "url": "https://flathub.org/en/apps/io.github.zerospades.ZeroSpades",
+          "evidence_url": "https://flathub.org/en/apps/io.github.zerospades.ZeroSpades",
+          "last_checked": "2026-10-08",
+          "maintainer": "ZeroSpades contributors",
+          "device_tests": [],
+          "notes": "Flathub lists Available Architectures: aarch64. Application ID io.github.zerospades.ZeroSpades. Active community fork of OpenSpades, itself based on Ace of Spades 0.75; independently released AArch64 Flatpak. Not the original OpenSpades app (which is x86_64-only on Flathub). Steam Frame untested."
         }
       ]
     }
