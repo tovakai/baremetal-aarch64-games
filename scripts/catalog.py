@@ -18,7 +18,7 @@ README = ROOT / "README.md"
 START = "<!-- catalog:start -->"
 END = "<!-- catalog:end -->"
 KINDS = {"upstream", "community", "distribution"}
-FORMATS = {"deb", "rpm", "flatpak", "appimage", "tarball", "standalone", "other", "steam", "conversion"}
+FORMATS = {"deb", "rpm", "flatpak", "appimage", "tarball", "standalone", "other", "steam", "conversion", "portmaster"}
 RESULTS = {"works", "partial", "broken"}
 SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 
@@ -140,7 +140,8 @@ def render_catalog(data: dict) -> str:
             source = f"[{md(build['kind'].title())} · {md(build['format'])}]({build['url']})"
             if build.get("maintainer"):
                 source += f" · {md(build['maintainer'])}"
-            label = "Verified conversion" if build["format"] == "conversion" else "Published"
+            label = ("Verified conversion" if build["format"] == "conversion" else
+                     "PortMaster package" if build["format"] == "portmaster" else "Published")
             evidence = f"[{label}]({build['evidence_url']})"
             test_info = ", ".join(
                 f"[{md(t['device'])}: {md(t['result'])}]({t['report_url']})"

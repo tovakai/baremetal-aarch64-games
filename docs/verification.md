@@ -9,6 +9,10 @@
 
 Do not silently promote a build from tier 1 to tier 3. A developer-published standalone itch.io ARM64 build is eligible even without a public GitHub source repository, provided the developer's download page explicitly identifies the architecture. Paid availability is not evidence of execution. A community build can be just as native as an upstream build, but record its maintainer and whether an artifact is actually distributed versus locally generated. A *verified conversion* does not imply a publicly available game download.
 
+## PortMaster checks
+
+Require *both* a `port.json` declaring `aarch64` and actual launch-script evidence of a native ARM64 engine/runtime. A wrapper that relies on x86 emulation, or just targets `armhf`, is not included. Document original asset requirements, special Mono/LÖVE runtimes, graphics/input firmware dependencies, and lack of direct Steam Frame testing. `portmaster` denotes a handheld-specific native package, not a generic standalone release.
+
 ## Inspect a Linux binary
 
 ```sh
