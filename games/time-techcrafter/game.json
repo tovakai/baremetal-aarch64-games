@@ -1,0 +1,19 @@
+{
+  "id": "time-techcrafter",
+  "title": "TIME",
+  "genre": "Point-and-click puzzle / adventure",
+  "homepage": "https://techcrafter-jw.itch.io/time",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://techcrafter-jw.itch.io/time",
+      "evidence_url": "https://techcrafter-jw.itch.io/time",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: linux-aarch64.zip. Linux ARM64 ZIP requires a compatible AArch64 Java runtime (OpenJDK 17 may be needed); only the AMD64 bundle is described as including Java. Not tested on Steam Frame."
+    }
+  ]
+}

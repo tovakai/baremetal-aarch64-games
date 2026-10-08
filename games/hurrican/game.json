@@ -1,0 +1,20 @@
+{
+  "id": "hurrican",
+  "title": "Hurrican",
+  "genre": "Action platformer / freeware game port",
+  "homepage": "https://flathub.org/en/apps/io.github.hurricangame.hurrican",
+  "builds": [
+    {
+      "version": "1.0.1",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.github.hurricangame.hurrican",
+      "evidence_url": "https://flathub.org/en/apps/io.github.hurricangame.hurrican",
+      "last_checked": "2026-10-08",
+      "maintainer": "HurricanGame contributors",
+      "device_tests": [],
+      "notes": "Flathub lists Available Architectures: aarch64. Application ID io.github.hurricangame.hurrican. Native Linux AArch64 Flatpak of the freeware platform-shooter Hurrican, packaged by the Flathub community. Do not confuse this with an official standalone ARM64 developer installer. Steam Frame untested."
+    }
+  ]
+}

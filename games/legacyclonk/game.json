@@ -1,0 +1,19 @@
+{
+  "id": "legacyclonk",
+  "title": "LegacyClonk",
+  "genre": "Action / sandbox / strategy",
+  "homepage": "https://fulgen.itch.io/legacyclonk",
+  "builds": [
+    {
+      "version": "experimental Linux ARM64 (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://fulgen.itch.io/legacyclonk",
+      "evidence_url": "https://fulgen.itch.io/legacyclonk",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Linux ARM64 (experimental). Developer explicitly labels Linux ARM64 build EXPERIMENTAL. Its archive filename and game version were not visible. Steam Frame untested."
+    }
+  ]
+}

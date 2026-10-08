@@ -1,0 +1,19 @@
+{
+  "id": "openra",
+  "title": "OpenRA",
+  "genre": "Real-time strategy",
+  "homepage": "https://www.openra.net/",
+  "builds": [
+    {
+      "version": "release-20250330",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/net.openra.OpenRA",
+      "evidence_url": "https://flathub.org/en/apps/net.openra.OpenRA",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.openra.OpenRA. Native open-source engine plus bundled classic RTS mods. Some original game assets may be downloaded at first launch or loaded from legitimate discs. Steam Frame not tested."
+    }
+  ]
+}

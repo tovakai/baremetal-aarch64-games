@@ -1,0 +1,19 @@
+{
+  "id": "satoris-love-counsel",
+  "title": "Satori's Love Counsel",
+  "genre": "First-person narrative / romance",
+  "homepage": "https://avyssos.itch.io/slc",
+  "builds": [
+    {
+      "version": "1.0.3 FINAL",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://avyssos.itch.io/slc",
+      "evidence_url": "https://avyssos.itch.io/slc",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: linux-arm64_1.0.3_FINAL.zip. Publisher explicitly warns that this ARM64 build has NOT BEEN TESTED. Steam Frame untested."
+    }
+  ]
+}

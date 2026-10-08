@@ -1,0 +1,19 @@
+{
+  "id": "the-powder-toy",
+  "title": "The Powder Toy",
+  "genre": "Physics sandbox",
+  "homepage": "https://powdertoy.co.uk/",
+  "builds": [
+    {
+      "version": "100.1.400",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/uk.co.powdertoy.tpt",
+      "evidence_url": "https://flathub.org/en/apps/uk.co.powdertoy.tpt",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: uk.co.powdertoy.tpt. Physics/chemistry simulation sandbox with community-maintained Flatpak; Steam Frame not tested."
+    }
+  ]
+}

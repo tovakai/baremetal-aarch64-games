@@ -1,0 +1,19 @@
+{
+  "id": "riftborne",
+  "title": "Riftborne",
+  "genre": "Space strategy / 4X",
+  "homepage": "https://riftborne.itch.io/riftborne",
+  "builds": [
+    {
+      "version": "11.83",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://riftborne.itch.io/riftborne",
+      "evidence_url": "https://riftborne.itch.io/riftborne",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: riftborne-linux-arm64.zip. Paid original indie game. Developer sells an ARM64 Linux ZIP on itch.io; purchase is required. Steam Frame not tested."
+    }
+  ]
+}

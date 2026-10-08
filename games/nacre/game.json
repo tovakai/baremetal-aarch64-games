@@ -1,0 +1,19 @@
+{
+  "id": "nacre",
+  "title": "Nacre",
+  "genre": "First-person shooter",
+  "homepage": "https://osefshell.itch.io/nacre",
+  "builds": [
+    {
+      "version": "prototype (itch.io)",
+      "kind": "upstream",
+      "format": "other",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://osefshell.itch.io/nacre",
+      "evidence_url": "https://osefshell.itch.io/nacre",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Nacre - Linux (Arm64) (external link). Unreal Engine FPS prototype; Linux ARM64 is an external hosted download, not a directly verified binary. Steam Frame untested."
+    }
+  ]
+}

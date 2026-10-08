@@ -1,0 +1,19 @@
+{
+  "id": "downcycling",
+  "title": "Downcycling",
+  "genre": "Puzzle / stealth",
+  "homepage": "https://fcolor04.itch.io/downcycling",
+  "builds": [
+    {
+      "version": "6 (2025 prototype)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://fcolor04.itch.io/downcycling",
+      "evidence_url": "https://fcolor04.itch.io/downcycling",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: downcycling-linux-arm64.zip. Godot stealth/puzzle prototype, Linux ARM64 ZIP marked version 6. Steam Frame not tested."
+    }
+  ]
+}

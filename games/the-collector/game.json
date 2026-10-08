@@ -1,0 +1,19 @@
+{
+  "id": "the-collector",
+  "title": "The Collector",
+  "genre": "Adventure platformer / thriller",
+  "homepage": "https://kazuren.itch.io/the-collector",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://kazuren.itch.io/the-collector",
+      "evidence_url": "https://kazuren.itch.io/the-collector",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: linux-arm64.zip. Publisher lists separate Linux ARM64 and ARM32 ZIP files; this entry refers to ARM64 only. Steam Frame not tested."
+    }
+  ]
+}

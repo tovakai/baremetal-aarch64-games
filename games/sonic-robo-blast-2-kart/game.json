@@ -1,0 +1,19 @@
+{
+  "id": "sonic-robo-blast-2-kart",
+  "title": "Sonic Robo Blast 2 Kart",
+  "genre": "Kart racer",
+  "homepage": "https://wiki.srb2.org/wiki/SRB2Kart",
+  "builds": [
+    {
+      "version": "1.6",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.srb2.SRB2Kart",
+      "evidence_url": "https://flathub.org/en/apps/org.srb2.SRB2Kart",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.srb2.SRB2Kart. SRB2 racing spin-off with a community-provided Flatpak; Steam Frame not tested."
+    }
+  ]
+}

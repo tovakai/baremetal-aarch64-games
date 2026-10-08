@@ -1,0 +1,28 @@
+{
+  "id": "half-life-alyx",
+  "title": "Half-Life: Alyx",
+  "genre": "VR first-person shooter",
+  "homepage": "https://store.steampowered.com/app/546560/HalfLife_Alyx/",
+  "builds": [
+    {
+      "version": "2026-09-14 ARM64 update",
+      "kind": "upstream",
+      "format": "steam",
+      "target": "Steam Frame · standalone Linux AArch64 VR",
+      "url": "https://store.steampowered.com/app/546560/HalfLife_Alyx/",
+      "evidence_url": "https://steamcommunity.com/app/546560/announcements/",
+      "last_checked": "2026-10-08",
+      "maintainer": "Valve",
+      "device_tests": [
+        {
+          "device": "Steam Frame",
+          "os": "SteamOS (preview build; version not specified)",
+          "date": "2026-09-14",
+          "result": "works",
+          "report_url": "https://www.computerbase.de/artikel/gaming/valve-steam-frame-half-life-alyx-arm64-port.99351/"
+        }
+      ],
+      "notes": "Valve's September 14, 2026 announcement explicitly identifies a native ARM64/aarch64 Steam Frame standalone port. Independent hands-on test used pre-release access; this test is not a personal user report."
+    }
+  ]
+}

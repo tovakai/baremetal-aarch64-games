@@ -1,0 +1,19 @@
+{
+  "id": "koalas-to-the-max",
+  "title": "Koalas to the Max",
+  "genre": "Casual / interactive puzzle",
+  "homepage": "https://jespiron.itch.io/koalas-to-the-max",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://jespiron.itch.io/koalas-to-the-max",
+      "evidence_url": "https://jespiron.itch.io/koalas-to-the-max",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: linux-aarch64.zip. Self-published Linux ARM64 ZIP. This interactive image game creates a local data directory; Steam Frame not tested."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "lba2-classic-community",
+  "title": "Little Big Adventure 2 Classic Community",
+  "genre": "Action adventure / engine port",
+  "homepage": "https://github.com/LBALab/lba2-classic-community",
+  "builds": [
+    {
+      "version": "0.12.0",
+      "kind": "community",
+      "format": "appimage",
+      "target": "Linux AArch64 · AppImage",
+      "url": "https://github.com/LBALab/lba2-classic-community/releases/download/v0.12.0/lba2cc-0.12.0-anylinux-aarch64.AppImage",
+      "evidence_url": "https://github.com/LBALab/lba2-classic-community/releases/tag/v0.12.0",
+      "last_checked": "2026-10-08",
+      "maintainer": "LBALab contributors",
+      "device_tests": [],
+      "notes": "Published release asset: lba2cc-0.12.0-anylinux-aarch64.AppImage. Community-maintained original Twinsen's Odyssey engine source port. Own and provide original Little Big Adventure 2 game assets (Steam/GOG/CD); project does not redistribute game data. Flows directly through a native Linux ARM64 binary; Steam Frame untested."
+    },
+    {
+      "version": "0.12.0",
+      "kind": "community",
+      "format": "tarball",
+      "target": "Linux AArch64 · portable archive",
+      "url": "https://github.com/LBALab/lba2-classic-community/releases/download/v0.12.0/lba2cc-0.12.0-linux-aarch64.tar.gz",
+      "evidence_url": "https://github.com/LBALab/lba2-classic-community/releases/tag/v0.12.0",
+      "last_checked": "2026-10-08",
+      "maintainer": "LBALab contributors",
+      "device_tests": [],
+      "notes": "Published release asset: lba2cc-0.12.0-linux-aarch64.tar.gz. Community-maintained original Twinsen's Odyssey engine source port. Own and provide original Little Big Adventure 2 game assets (Steam/GOG/CD); project does not redistribute game data. Flows directly through a native Linux ARM64 binary; Steam Frame untested."
+    }
+  ]
+}

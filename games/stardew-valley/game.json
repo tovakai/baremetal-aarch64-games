@@ -1,0 +1,20 @@
+{
+  "id": "stardew-valley",
+  "title": "Stardew Valley (compatibility branch)",
+  "genre": "Farming / life simulation",
+  "homepage": "https://www.stardewvalley.net/",
+  "builds": [
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/stardewvalley",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/stardewvalley/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "Johnny on Flame",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Native ARM64 Mono 6.12 plus game-specific MonoGame patches and loader. Requires the purchased compatibility version, not the default Stardew Valley build. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

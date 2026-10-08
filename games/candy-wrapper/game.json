@@ -1,0 +1,19 @@
+{
+  "id": "candy-wrapper",
+  "title": "Candy Wrapper",
+  "genre": "Arcade platformer",
+  "homepage": "https://hhoney.net",
+  "builds": [
+    {
+      "version": "2026.03.15",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/net.hhoney.candy",
+      "evidence_url": "https://flathub.org/en/apps/net.hhoney.candy",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.hhoney.candy. Independent screen-wrapping arcade game; Steam Frame not tested."
+    }
+  ]
+}

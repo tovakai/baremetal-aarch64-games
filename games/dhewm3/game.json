@@ -1,0 +1,20 @@
+{
+  "id": "dhewm3",
+  "title": "dhewm3 (Doom 3)",
+  "genre": "First-person shooter / engine port",
+  "homepage": "https://github.com/dhewm/dhewm3",
+  "builds": [
+    {
+      "version": "1.5.5",
+      "kind": "community",
+      "format": "tarball",
+      "target": "Linux AArch64 · portable archive",
+      "url": "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_Linux_arm64.tar.gz",
+      "evidence_url": "https://github.com/dhewm/dhewm3/releases/tag/1.5.5",
+      "last_checked": "2026-10-08",
+      "maintainer": "dhewm3 contributors",
+      "device_tests": [],
+      "notes": "Published release asset: dhewm3-1.5.5_Linux_arm64.tar.gz. Native ARM64 Doom 3 source port, requires a legal copy of Doom 3 original game files. Source port is not an official ARM64 Doom 3 game package; Steam Frame untested."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "countdown-count-down",
+  "title": "Countdown Count Down",
+  "genre": "Puzzle / arcade",
+  "homepage": "https://theblackcatgames.itch.io/countdown-countdown",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://theblackcatgames.itch.io/countdown-countdown",
+      "evidence_url": "https://theblackcatgames.itch.io/countdown-countdown",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: countdown-count-down-linux-aarch64.zip. GMTK Game Jam 2026 game; ARM64 Linux ZIP is listed. Steam Frame not tested."
+    }
+  ]
+}

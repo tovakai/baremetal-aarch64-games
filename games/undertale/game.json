@@ -1,0 +1,20 @@
+{
+  "id": "undertale",
+  "title": "Undertale",
+  "genre": "RPG",
+  "homepage": "https://undertale.com/",
+  "builds": [
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/undertale",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/undertale/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "krishenriksen, Jeod, Ganimoth, curious_idiot",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled gmloadernext.aarch64 executes assets supplied by owner from legitimate retail Steam/GOG game. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

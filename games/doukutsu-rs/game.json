@@ -1,0 +1,19 @@
+{
+  "id": "doukutsu-rs",
+  "title": "doukutsu-rs (Cave Story engine)",
+  "genre": "Action adventure / platformer",
+  "homepage": "https://doukutsu.rs",
+  "builds": [
+    {
+      "version": "1.0.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.github.doukutsu_rs.doukutsu-rs",
+      "evidence_url": "https://flathub.org/en/apps/io.github.doukutsu_rs.doukutsu-rs",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.doukutsu_rs.doukutsu-rs. Modern Rust Cave Story engine; requires user-provided compatible Cave Story game data. Native ARM64 runtime availability does not mean copyrighted game data is included. Steam Frame not tested."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "not-enough-fuel-vr",
+  "title": "Not Enough Fuel VR",
+  "genre": "VR bullet hell / action",
+  "homepage": "https://monoidalberry.itch.io/not-enough-fuel",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://monoidalberry.itch.io/not-enough-fuel",
+      "evidence_url": "https://monoidalberry.itch.io/not-enough-fuel",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: Not Enough Fuel - Linux (arm64).zip. Godot XR game. Developer has tested Linux PCVR and Quest 2, but explicitly states that this ARM64 build has NOT been tested on Steam Frame. No headset compatibility is claimed."
+    }
+  ]
+}

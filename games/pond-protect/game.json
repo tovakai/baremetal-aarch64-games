@@ -1,0 +1,19 @@
+{
+  "id": "pond-protect",
+  "title": "Pond Protect",
+  "genre": "Arcade shoot-'em-up",
+  "homepage": "https://achie.itch.io/pond-protect",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://achie.itch.io/pond-protect",
+      "evidence_url": "https://achie.itch.io/pond-protect",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: pond-protect-linux-aarch64.zip. Self-published Usagi game with native ARM64 ZIP. Steam Frame not tested."
+    }
+  ]
+}

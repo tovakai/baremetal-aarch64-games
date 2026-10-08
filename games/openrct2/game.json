@@ -1,0 +1,19 @@
+{
+  "id": "openrct2",
+  "title": "OpenRCT2",
+  "genre": "Theme park simulation",
+  "homepage": "https://openrct2.io/",
+  "builds": [
+    {
+      "version": "0.5.5",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.openrct2.OpenRCT2",
+      "evidence_url": "https://flathub.org/en/apps/io.openrct2.OpenRCT2",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.openrct2.OpenRCT2. Open-source RCT2 engine. Requires original RollerCoaster Tycoon 2 or RollerCoaster Tycoon Classic game files, acquired separately. Steam Frame not tested."
+    }
+  ]
+}

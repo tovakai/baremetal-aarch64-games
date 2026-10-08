@@ -1,0 +1,19 @@
+{
+  "id": "project-aethia-demo",
+  "title": "Project Aethia - Demo",
+  "genre": "3D adventure / parkour / puzzle",
+  "homepage": "https://tronusgames.itch.io/project-aethia-demo",
+  "builds": [
+    {
+      "version": "0.1 (2022 demo)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://tronusgames.itch.io/project-aethia-demo",
+      "evidence_url": "https://tronusgames.itch.io/project-aethia-demo/devlog/336474/project-aethia-demo-prototype-small-builds-update",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: project-aethia-demo-linuxaarch64.zip. A 2022 prototype demo (not a full game release). Developer explicitly announced Linux ARM64 build. Package is large (approx. 2.6 GB); Steam Frame not tested."
+    }
+  ]
+}

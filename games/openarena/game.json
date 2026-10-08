@@ -1,0 +1,19 @@
+{
+  "id": "openarena",
+  "title": "OpenArena (Quake3e build)",
+  "genre": "Arena FPS",
+  "homepage": "https://flathub.org/en/apps/io.github.ec_.Quake3e.OpenArena",
+  "builds": [
+    {
+      "version": "0.8.8",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.github.ec_.Quake3e.OpenArena",
+      "evidence_url": "https://flathub.org/en/apps/io.github.ec_.Quake3e.OpenArena",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.ec_.Quake3e.OpenArena. Community Flatpak uses Quake3e with OpenArena assets; Steam Frame not tested."
+    }
+  ]
+}

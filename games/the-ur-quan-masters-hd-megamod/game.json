@@ -1,0 +1,19 @@
+{
+  "id": "the-ur-quan-masters-hd-megamod",
+  "title": "The Ur-Quan Masters HD MegaMod",
+  "genre": "Space adventure / classic revival",
+  "homepage": "https://uqm-mods.sourceforge.net/",
+  "builds": [
+    {
+      "version": "0.8.5",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/net.sourceforge.uqm_mods.UQM-MegaMod",
+      "evidence_url": "https://flathub.org/en/apps/net.sourceforge.uqm_mods.UQM-MegaMod",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.sourceforge.uqm_mods.UQM-MegaMod. Standalone Ur-Quan Masters high-definition community mod; package explicitly supports ARM64. Steam Frame not tested."
+    }
+  ]
+}

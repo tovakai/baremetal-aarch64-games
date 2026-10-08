@@ -1,0 +1,19 @@
+{
+  "id": "racing-dash-2d",
+  "title": "Racing Dash 2D",
+  "genre": "Arcade racer",
+  "homepage": "https://wlhq.itch.io/racing-dash-2d",
+  "builds": [
+    {
+      "version": "2.0.9",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://wlhq.itch.io/racing-dash-2d",
+      "evidence_url": "https://wlhq.itch.io/racing-dash-2d",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Publisher currently lists Racing Dash 2D Linux arm64 v2.0.9.zip, superseding the older seeded 0.2.8 release. Steam Frame untested."
+    }
+  ]
+}

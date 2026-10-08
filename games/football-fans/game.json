@@ -1,0 +1,19 @@
+{
+  "id": "football-fans",
+  "title": "Football Fans",
+  "genre": "Local multiplayer sports",
+  "homepage": "https://calandir.itch.io/football-fans",
+  "builds": [
+    {
+      "version": "build cff0026ce",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://calandir.itch.io/football-fans",
+      "evidence_url": "https://calandir.itch.io/football-fans",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Linux arm64 (build cff0026ce).zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

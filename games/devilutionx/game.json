@@ -1,0 +1,20 @@
+{
+  "id": "devilutionx",
+  "title": "DevilutionX",
+  "genre": "Action RPG / Diablo engine recreation",
+  "homepage": "https://github.com/diasurgical/DevilutionX",
+  "builds": [
+    {
+      "version": "1.5.5",
+      "kind": "community",
+      "format": "tarball",
+      "target": "Generic Linux AArch64 (tar.xz)",
+      "url": "https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-linux-aarch64.tar.xz",
+      "evidence_url": "https://github.com/diasurgical/DevilutionX/releases/tag/1.5.5",
+      "last_checked": "2026-10-08",
+      "maintainer": "DevilutionX contributors",
+      "device_tests": [],
+      "notes": "Open-source engine recreation of Diablo (1996). Requires legitimately obtained original Diablo data or supported shareware data. A Linux AArch64 archive is a published release asset; Steam Frame play has not been verified."
+    }
+  ]
+}

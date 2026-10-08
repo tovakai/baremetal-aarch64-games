@@ -1,0 +1,20 @@
+{
+  "id": "corsixth",
+  "title": "CorsixTH (Theme Hospital)",
+  "genre": "Hospital simulation / engine reimplementation",
+  "homepage": "https://flathub.org/en/apps/com.corsixth.corsixth",
+  "builds": [
+    {
+      "version": "0.70.1",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/com.corsixth.corsixth",
+      "evidence_url": "https://flathub.org/en/apps/com.corsixth.corsixth",
+      "last_checked": "2026-10-08",
+      "maintainer": "CorsixTH contributors",
+      "device_tests": [],
+      "notes": "Flathub lists Available Architectures: aarch64. Application ID com.corsixth.corsixth. Community reimplementation of Theme Hospital engine distributed as AArch64 Flatpak; requires purchased original game assets or legally available demo data. Not an official Theme Hospital ARM64 release; Steam Frame untested."
+    }
+  ]
+}

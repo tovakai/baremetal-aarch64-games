@@ -1,0 +1,31 @@
+{
+  "id": "openmw",
+  "title": "OpenMW",
+  "genre": "RPG / Morrowind engine",
+  "homepage": "https://openmw.org/",
+  "builds": [
+    {
+      "version": "0.51.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.openmw.OpenMW",
+      "evidence_url": "https://flathub.org/en/apps/org.openmw.OpenMW",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.openmw.OpenMW. Native engine replacement, not a free copy of The Elder Scrolls III: Morrowind. Legally acquired Morrowind data is required. Steam Frame not tested."
+    },
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/openmw",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/openmw/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "saint, kloptops, BinaryCounter, bmdhacks",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Separate PortMaster ARM64 build of OpenMW, using openmw.aarch64 and a Linux aarch64 compilation recipe. Requires legally acquired Morrowind assets. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

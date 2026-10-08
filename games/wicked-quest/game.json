@@ -1,0 +1,19 @@
+{
+  "id": "wicked-quest",
+  "title": "Wicked Quest",
+  "genre": "Platformer / audio game",
+  "homepage": "https://stormdragon2976.itch.io/wicked-quest",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://stormdragon2976.itch.io/wicked-quest",
+      "evidence_url": "https://stormdragon2976.itch.io/wicked-quest",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: wicked_quest-linux-aarch64.zip. Paid audio-focused side-scrolling platformer with ARM64 Linux ZIP. Purchase is required; Steam Frame not tested."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "raid-on-the-sarcophagus",
+  "title": "Raid on the Sarcophagus Engine",
+  "genre": "Sci-fi puzzle / typing",
+  "homepage": "https://arsaltai.itch.io/raid-on-the-sarcophagus",
+  "builds": [
+    {
+      "version": "1.1.4 (WIP)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://arsaltai.itch.io/raid-on-the-sarcophagus",
+      "evidence_url": "https://arsaltai.itch.io/raid-on-the-sarcophagus",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Linux (Arm64). Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

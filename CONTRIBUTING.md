@@ -4,11 +4,30 @@ Thanks for helping build an accurate Linux AArch64 game catalog. The goal is a u
 
 ## Add a game or build
 
-1. Check whether the game is already present in `data/games.json`. Add a new `builds` entry rather than duplicating a game if only the build or packaging differs.
+1. Check `games/<slug>/game.json` first. Create a new `games/<slug>/` directory for a new title, or add a new build inside its existing JSON. Never edit the generated `data/games.json` or per-game `README.md` manually.
 2. Link a release asset, package index, or official itch.io download page that **explicitly identifies Linux AArch64/arm64**. For itch.io, name the exact download filename in notes, and label paid games or demos accurately. For a *player-owned conversion*, link a reproducible conversion recipe and a real native ARM64 gameplay report (with exact game/runtime versions). Source-only claims or a build that has never launched do not count.
 3. Specify the **origin** (`upstream`, `community`, or `distribution`) and **format** (`deb`, `rpm`, `flatpak`, `appimage`, `tarball`, `standalone`, or `other`; additionally, `steam` for a Steam-native build and `conversion` for a locally generated native game, or `portmaster` for a verified PortMaster handheld-native wrapper). Don't describe a distro package as upstream. A `portmaster` submission must link both the `port.json` declaring `aarch64` and the native execution path (an ARM64 binary or an ARM64 runtime). PortMaster metadata alone is insufficient, and native handheld support is NOT SteamOS support. For conversions, set `kind` to `community`, `format` to `conversion`, and `maintainer` to the credited converter/maintainer. Use `upstream` for an original game's self-published itch.io Linux ARM64 ZIP and `community` for a third-party reimplementation or source port. A project can have multiple build formats as separate entries.
 4. Record the exact version, distribution/runtime target, evidence URL, and date you checked the link. If it needs proprietary game files, say so in `notes` and link only legal acquisition paths.
-5. Run `python3 scripts/catalog.py --write`, `python3 scripts/catalog.py --check`, and `python3 -m unittest discover -s tests` before opening a PR.
+5. Run `python3 scripts/catalog.py --write`, `python3 scripts/catalog.py --check`, and `python3 -m unittest discover -s tests` before opening a PR. Include generated files in the PR, along with the updated canonical game.json.
+
+## Directory layout
+
+```text
+games/
+  brotato/
+    game.json          # hand-edited metadata
+    README.md          # generated game details
+    cover.png          # optional rights-cleared artwork
+    screenshots/       # optional rights-cleared images
+  half-life-alyx/
+    game.json
+    README.md
+
+data/games.json         # generated aggregate/API-compatible feed
+README.md               # main generated table between catalog markers
+```
+
+Keep the directory slug and JSON `id` identical. No copyrighted game assets, ROMs, proprietary binaries, or unlicensed promotional imagery.
 
 ## Schema at a glance
 
@@ -34,7 +53,7 @@ Thanks for helping build an accurate Linux AArch64 game catalog. The goal is a u
 }
 ```
 
-The example above is **illustrative, not an actual submission**. Both `url` and `evidence_url` must be actual HTTPS links. `maintainer` is optional but strongly encouraged for credited community conversions. `notes` is optional. `device_tests` must be an array (empty is fine).
+Place example metadata in `games/example-game/game.json` only when submitting a real game. The example above is **illustrative, not an actual submission**. Both `url` and `evidence_url` must be actual HTTPS links. `maintainer` is optional but strongly encouraged for credited community conversions. `notes` is optional. `device_tests` must be an array (empty is fine).
 
 ## Record a test separately
 

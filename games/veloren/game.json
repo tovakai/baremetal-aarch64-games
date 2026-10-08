@@ -1,0 +1,19 @@
+{
+  "id": "veloren",
+  "title": "Veloren",
+  "genre": "Voxel action RPG",
+  "homepage": "https://veloren.net/",
+  "builds": [
+    {
+      "version": "0.18.0-nightly",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/net.veloren.veloren",
+      "evidence_url": "https://flathub.org/en/apps/net.veloren.veloren",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.veloren.veloren. Nightly ARM64 Flatpak release; not a stable-version guarantee. Steam Frame not tested."
+    }
+  ]
+}

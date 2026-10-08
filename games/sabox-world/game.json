@@ -1,0 +1,19 @@
+{
+  "id": "sabox-world",
+  "title": "SABox World",
+  "genre": "Sandbox / world editor",
+  "homepage": "https://teamplaygame.itch.io/sabox-world",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://teamplaygame.itch.io/sabox-world",
+      "evidence_url": "https://teamplaygame.itch.io/sabox-world",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: SABox World Linux arm64. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

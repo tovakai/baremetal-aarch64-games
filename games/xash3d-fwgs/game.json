@@ -1,0 +1,32 @@
+{
+  "id": "xash3d-fwgs",
+  "title": "Xash3D FWGS (Half-Life)",
+  "genre": "First-person shooter / engine recreation",
+  "homepage": "https://github.com/FWGS/xash3d-fwgs",
+  "builds": [
+    {
+      "version": "rolling continuous (2026-10-04)",
+      "kind": "community",
+      "format": "appimage",
+      "target": "Linux AArch64 · rolling AppImage",
+      "url": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-arm64.AppImage",
+      "evidence_url": "https://github.com/FWGS/xash3d-fwgs/releases/tag/continuous",
+      "last_checked": "2026-10-08",
+      "maintainer": "FWGS contributors",
+      "device_tests": [],
+      "notes": "Published release asset: xash3d-fwgs-arm64.AppImage. Community GoldSrc/Half-Life engine recreation. Requires legally acquired Half-Life game assets; the ARM64 engine archives do NOT include the proprietary full game. Rolling development release, not a stable version, and Steam Frame untested."
+    },
+    {
+      "version": "rolling continuous (2026-10-04)",
+      "kind": "community",
+      "format": "tarball",
+      "target": "Linux AArch64 · rolling portable archive",
+      "url": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-linux-arm64.tar.gz",
+      "evidence_url": "https://github.com/FWGS/xash3d-fwgs/releases/tag/continuous",
+      "last_checked": "2026-10-08",
+      "maintainer": "FWGS contributors",
+      "device_tests": [],
+      "notes": "Published release asset: xash3d-fwgs-linux-arm64.tar.gz. Community GoldSrc/Half-Life engine recreation. Requires legally acquired Half-Life game assets; the ARM64 engine archives do NOT include the proprietary full game. Rolling development release, not a stable version, and Steam Frame untested."
+    }
+  ]
+}

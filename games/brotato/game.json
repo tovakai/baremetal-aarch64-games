@@ -1,0 +1,28 @@
+{
+  "id": "brotato",
+  "title": "Brotato",
+  "genre": "Arena survival / roguelite",
+  "homepage": "https://store.steampowered.com/app/1942280/Brotato/",
+  "builds": [
+    {
+      "version": "1.1.14.6",
+      "kind": "community",
+      "format": "conversion",
+      "target": "Steam Frame · Linux AArch64",
+      "url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai",
+      "evidence_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility",
+      "last_checked": "2026-10-08",
+      "maintainer": "tovakai",
+      "device_tests": [
+        {
+          "device": "Steam Frame",
+          "os": "SteamOS VR (exact version not recorded)",
+          "date": "2026-10-08",
+          "result": "works",
+          "report_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility"
+        }
+      ],
+      "notes": "Player-owned native ARM64 conversion via tovakai, using pinned Godot 3.7-dev1 and GodotSteam 3.30 compatibility runtime. Completed a full gameplay run without issues. This is not an official ARM64 release. No proprietary game files redistributed."
+    }
+  ]
+}

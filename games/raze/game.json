@@ -1,0 +1,19 @@
+{
+  "id": "raze",
+  "title": "Raze",
+  "genre": "Classic FPS / Build engine port",
+  "homepage": "https://raze.zdoom.org/",
+  "builds": [
+    {
+      "version": "1.11.0-1",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.zdoom.Raze",
+      "evidence_url": "https://flathub.org/en/apps/org.zdoom.Raze",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.zdoom.Raze. Native Build-engine source port for Duke Nukem 3D, Blood and other games. Commercial original game data must be obtained separately; Steam Frame not tested."
+    }
+  ]
+}

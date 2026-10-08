@@ -1,0 +1,19 @@
+{
+  "id": "mr-rosens-watering-tactics",
+  "title": "Mr. Rosen's Watering Tactics",
+  "genre": "Arcade shoot-'em-up",
+  "homepage": "https://aedr.itch.io/mr-rosens-watering-tactics",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://aedr.itch.io/mr-rosens-watering-tactics",
+      "evidence_url": "https://aedr.itch.io/mr-rosens-watering-tactics",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: linux-aarch64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

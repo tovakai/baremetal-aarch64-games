@@ -1,0 +1,19 @@
+{
+  "id": "wesnoth",
+  "title": "The Battle for Wesnoth",
+  "genre": "Turn-based strategy",
+  "homepage": "https://www.wesnoth.org/",
+  "builds": [
+    {
+      "version": "1:1.18.5-1",
+      "kind": "distribution",
+      "format": "deb",
+      "target": "Debian 13 (Trixie)",
+      "url": "https://packages.debian.org/trixie/arm64/wesnoth-1.18",
+      "evidence_url": "https://packages.debian.org/trixie/arm64/wesnoth-1.18",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Use the versioned game package, not the architecture-independent 'wesnoth' metapackage. SteamOS/Frame untested."
+    }
+  ]
+}

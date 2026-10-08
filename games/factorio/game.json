@@ -1,0 +1,28 @@
+{
+  "id": "factorio",
+  "title": "Factorio",
+  "genre": "Factory building / automation",
+  "homepage": "https://factorio.com/",
+  "builds": [
+    {
+      "version": "2.1.21 (experimental)",
+      "kind": "upstream",
+      "format": "steam",
+      "target": "Linux AArch64 · Steam experimental / standalone",
+      "url": "https://factorio.com/download/experimental",
+      "evidence_url": "https://www.factorio.com/blog/post/fff-446",
+      "last_checked": "2026-10-08",
+      "maintainer": "Wube Software",
+      "device_tests": [
+        {
+          "device": "Steam Frame",
+          "os": "SteamOS (version not specified in Wube's report)",
+          "date": "2026-09-18",
+          "result": "works",
+          "report_url": "https://www.factorio.com/blog/post/fff-446"
+        }
+      ],
+      "notes": "Official native ARM64 port. Wube confirms Factorio is Steam Frame Certified. To run the ARM64 Steam build, opt into the 2.1 experimental branch; an official standalone ARM64 Linux download is also offered. Not a VR-native game."
+    }
+  ]
+}

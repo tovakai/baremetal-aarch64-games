@@ -1,0 +1,19 @@
+{
+  "id": "land-of-the-fallen-magi",
+  "title": "Land of the Fallen Magi",
+  "genre": "Roguelike / RPG",
+  "homepage": "https://bamfoodle.itch.io/land-of-the-fallen-magi",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://bamfoodle.itch.io/land-of-the-fallen-magi",
+      "evidence_url": "https://bamfoodle.itch.io/land-of-the-fallen-magi",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: land-of-the-fallen-magi-linux-arm64.zip. Developer states only Windows builds were tested. Steam Frame untested."
+    }
+  ]
+}

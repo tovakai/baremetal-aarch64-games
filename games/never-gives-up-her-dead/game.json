@@ -1,0 +1,19 @@
+{
+  "id": "never-gives-up-her-dead",
+  "title": "Never Gives Up Her Dead",
+  "genre": "Science-fiction interactive fiction",
+  "homepage": "https://mathbrush.itch.io/never-gives-up-her-dead",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://mathbrush.itch.io/never-gives-up-her-dead",
+      "evidence_url": "https://mathbrush.itch.io/never-gives-up-her-dead",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: NeverGivesUpHerDead-linux-arm64.zip. Commercial interactive fiction with a Linux ARM64 packaged interpreter. The ARM64 ZIP is listed in the higher-price ($12) purchase tier, not the $5 entry tier. Steam Frame not tested."
+    }
+  ]
+}

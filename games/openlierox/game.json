@@ -1,0 +1,19 @@
+{
+  "id": "openlierox",
+  "title": "OpenLieroX",
+  "genre": "Multiplayer arcade shooter",
+  "homepage": "https://www.openlierox.net/",
+  "builds": [
+    {
+      "version": "0.59 beta10",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/net.sourceforge.OpenLieroX",
+      "evidence_url": "https://flathub.org/en/apps/net.sourceforge.OpenLieroX",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.sourceforge.OpenLieroX. Older worm-themed side-scrolling shooter; Steam Frame not tested."
+    }
+  ]
+}

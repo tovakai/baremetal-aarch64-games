@@ -1,0 +1,19 @@
+{
+  "id": "termcom",
+  "title": "TermCom",
+  "genre": "ASCII tactical roguelike / strategy",
+  "homepage": "https://taislin.itch.io/termcom",
+  "builds": [
+    {
+      "version": "0.52.1",
+      "kind": "upstream",
+      "format": "other",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://taislin.itch.io/termcom",
+      "evidence_url": "https://taislin.itch.io/termcom",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Termcom v0.52.1 (Linux ARM64) (external link). Native terminal strategy release linked externally from developer page; architecture stated but binary not personally inspected. Steam Frame untested."
+    }
+  ]
+}

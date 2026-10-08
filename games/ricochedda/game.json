@@ -1,0 +1,19 @@
+{
+  "id": "ricochedda",
+  "title": "Ricochedda",
+  "genre": "Puzzle / arcade",
+  "homepage": "https://achie.itch.io/ricochedda",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://achie.itch.io/ricochedda",
+      "evidence_url": "https://achie.itch.io/ricochedda",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: ricochedda-linux-aarch64.zip. Developer-published ARM64 Linux ZIP for the cheese-throwing puzzle game; Steam Frame not tested."
+    }
+  ]
+}

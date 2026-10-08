@@ -1,0 +1,20 @@
+{
+  "id": "fallout-2",
+  "title": "Fallout 2 (Community Edition)",
+  "genre": "Classic CRPG",
+  "homepage": "https://github.com/alexbatalov/fallout2-ce",
+  "builds": [
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/fallout2",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/fallout2/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "Orson",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled native fallout2-ce game engine; requires legally purchased Fallout 2 data (critter.dat, master.dat, patch000.dat, data folder). Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

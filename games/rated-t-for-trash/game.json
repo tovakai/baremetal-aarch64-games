@@ -1,0 +1,19 @@
+{
+  "id": "rated-t-for-trash",
+  "title": "Rated T for Trash",
+  "genre": "2.5D clicker / adventure",
+  "homepage": "https://furioustierren.itch.io/rated-t-for-trash",
+  "builds": [
+    {
+      "version": "prototype (unversioned)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://furioustierren.itch.io/rated-t-for-trash",
+      "evidence_url": "https://furioustierren.itch.io/rated-t-for-trash",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: Linux ARM64.zip. Godot Wild Jam prototype with developer-published ARM64 Linux ZIP; Steam Frame not tested."
+    }
+  ]
+}

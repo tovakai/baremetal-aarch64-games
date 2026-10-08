@@ -1,0 +1,19 @@
+{
+  "id": "a-car-that-turns",
+  "title": "A Car That Turns",
+  "genre": "Racing / drifting",
+  "homepage": "https://amirrajan.itch.io/a-car-that-turns",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://amirrajan.itch.io/a-car-that-turns",
+      "evidence_url": "https://amirrajan.itch.io/a-car-that-turns",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: a-car-that-turns-linux-arm64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

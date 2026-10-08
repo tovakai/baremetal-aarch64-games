@@ -1,0 +1,19 @@
+{
+  "id": "beamlab",
+  "title": "BeamLab",
+  "genre": "Rhythm / puzzle",
+  "homepage": "https://wet-cement-studios.itch.io/beamlab",
+  "builds": [
+    {
+      "version": "0.4.0",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://wet-cement-studios.itch.io/beamlab",
+      "evidence_url": "https://wet-cement-studios.itch.io/beamlab",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: BeamLab-v0.4.0-linux.arm64. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

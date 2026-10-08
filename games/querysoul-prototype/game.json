@@ -1,0 +1,19 @@
+{
+  "id": "querysoul-prototype",
+  "title": "QuerySoul: Prototype",
+  "genre": "Action roguelike / programming puzzle",
+  "homepage": "https://acmwq.itch.io/querysoul-prototype",
+  "builds": [
+    {
+      "version": "prototype (unversioned)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://acmwq.itch.io/querysoul-prototype",
+      "evidence_url": "https://acmwq.itch.io/querysoul-prototype",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: QuerySoul-linux-arm64.zip. Prototype using SQL-like commands to change the game world; developer-published ARM64 Linux ZIP. Steam Frame not tested."
+    }
+  ]
+}

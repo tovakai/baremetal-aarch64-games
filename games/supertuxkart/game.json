@@ -1,0 +1,19 @@
+{
+  "id": "supertuxkart",
+  "title": "SuperTuxKart",
+  "genre": "Kart racing",
+  "homepage": "https://supertuxkart.net/",
+  "builds": [
+    {
+      "version": "1.4+dfsg-5+b1",
+      "kind": "distribution",
+      "format": "deb",
+      "target": "Debian 13 (Trixie)",
+      "url": "https://packages.debian.org/trixie/arm64/supertuxkart",
+      "evidence_url": "https://packages.debian.org/trixie/arm64/supertuxkart",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Debian arm64 package; SteamOS and Steam Frame compatibility not established."
+    }
+  ]
+}

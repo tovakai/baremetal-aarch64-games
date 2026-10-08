@@ -1,0 +1,20 @@
+{
+  "id": "pokemon-snap-recompiled",
+  "title": "Pokémon Snap: Recompiled",
+  "genre": "Rail photography / N64 native recompilation",
+  "homepage": "https://github.com/JackandBeans/Snap64Recomp",
+  "builds": [
+    {
+      "version": "1.1.2",
+      "kind": "community",
+      "format": "tarball",
+      "target": "Linux AArch64 · experimental native recompilation",
+      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.2/Snap64Recomp-1.1.2-linux-arm64.tar.gz",
+      "evidence_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.2",
+      "last_checked": "2026-10-08",
+      "maintainer": "JackandBeans",
+      "device_tests": [],
+      "notes": "Published release asset: Snap64Recomp-1.1.2-linux-arm64.tar.gz. Native static recompilation of the Nintendo 64 Pokémon Snap game (not emulation). Requires your own legally obtained US Pokémon Snap cartridge dump; no ROM included. ARM64 build produced by GitHub ARM runner but publisher says real ARM64 hardware gameplay NOT yet tested. Needs Vulkan 1.2 and other desktop dependencies; Steam Frame untested."
+    }
+  ]
+}

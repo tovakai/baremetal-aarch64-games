@@ -14,6 +14,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "games.json"
+GAMES = ROOT / "games"
 README = ROOT / "README.md"
 START = "<!-- catalog:start -->"
 END = "<!-- catalog:end -->"
@@ -136,7 +137,7 @@ def render_catalog(data: dict) -> str:
     ]
     for game in sorted(data["games"], key=lambda g: g["title"].casefold()):
         for build in sorted(game["builds"], key=lambda b: (b["target"], b["version"])):
-            title = f"[{md(game['title'])}]({game['homepage']})"
+            title = f"[{md(game['title'])}](games/{game['id']}/README.md)"
             source = f"[{md(build['kind'].title())} · {md(build['format'])}]({build['url']})"
             if build.get("maintainer"):
                 source += f" · {md(build['maintainer'])}"
@@ -171,21 +172,127 @@ def sync_readme(data: dict, write: bool) -> bool:
     return False
 
 
+
+def load_directory_catalog(games_root: Path = GAMES) -> dict:
+    """Read one canonical game.json per games/<slug>/ folder."""
+    require(games_root.is_dir(), str(games_root), "games directory is missing")
+    folders = sorted(p for p in games_root.iterdir() if p.is_dir() and not p.name.startswith("."))
+    require(bool(folders), str(games_root), "no game directories found")
+    games = []
+    for folder in folders:
+        require(bool(SLUG.fullmatch(folder.name)), str(folder), "directory name must be a lowercase slug")
+        source = folder / "game.json"
+        require(source.is_file(), str(source), "missing game.json")
+        try:
+            game = json.loads(source.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            raise CatalogError(f"{source}: cannot read game.json: {exc}") from exc
+        require(isinstance(game, dict), str(source), "game metadata must be an object")
+        require(game.get("id") == folder.name, str(source), "game id must exactly match directory name")
+        games.append(game)
+    data = {"schema_version": 1, "games": games}
+    validate_catalog(data)
+    return data
+
+
+def render_game_readme(game: dict) -> str:
+    """Stable human-readable page, with all build and test details."""
+    lines = [
+        f"# {md(game['title'])}",
+        "",
+        f"**Genre:** {md(game['genre'])}",
+        "",
+        f"**Game/project website:** [{md(game['homepage'])}]({game['homepage']})",
+        "",
+        "[← All games](../../README.md)",
+        "",
+        "## AArch64 builds",
+        "",
+    ]
+    builds = sorted(game["builds"], key=lambda b: (b["target"], b["version"]))
+    for index, build in enumerate(builds, start=1):
+        lines.extend([
+            f"### {index}. {md(build['version'])}",
+            "",
+            f"- **Origin:** {md(build['kind'].title())}",
+            f"- **Format:** {md(build['format'])}",
+            f"- **Target:** {md(build['target'])}",
+            f"- **Build/download page:** [Open link]({build['url']})",
+            f"- **Architecture evidence:** [Verify source]({build['evidence_url']})",
+            f"- **Evidence checked:** {build['last_checked']}",
+        ])
+        if build.get("maintainer"):
+            lines.append(f"- **Maintainer/porter:** {md(build['maintainer'])}")
+        if build.get("notes"):
+            lines.extend(["", "#### Notes", "", md(build["notes"])])
+        lines.extend(["", "#### Device compatibility", ""])
+        if build["device_tests"]:
+            for test in build["device_tests"]:
+                lines.append(
+                    f"- **{md(test['device'])}** ({md(test['os'])}): "
+                    f"**{md(test['result'])}**, {test['date']} · "
+                    f"[Test report]({test['report_url']})"
+                )
+        else:
+            lines.append("No device tests recorded. An AArch64 release is not a confirmed Steam Frame test.")
+        lines.append("")
+    lines.extend([
+        "---",
+        "",
+        "This page is generated from [game.json](game.json).",
+        "To correct metadata or add a build, edit game.json and run "
+        "python3 scripts/catalog.py --write from the repository root.",
+        "Game assets and proprietary ROMs are not distributed here. See "
+        "[contribution guidelines](../../CONTRIBUTING.md).",
+        "",
+    ])
+    return "\n".join(lines)
+
+
+def sync_file(path: Path, desired: str, write: bool) -> bool:
+    current = path.read_text(encoding="utf-8") if path.is_file() else None
+    if current == desired:
+        return True
+    if write:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(desired, encoding="utf-8")
+        return True
+    print(f"Generated file out of sync or missing: {path}. Run python3 scripts/catalog.py --write",
+          file=sys.stderr)
+    return False
+
+
+def sync_aggregate(data: dict, write: bool) -> bool:
+    return sync_file(DATA, json.dumps(data, ensure_ascii=False, indent=2) + "\n", write)
+
+
+def sync_game_pages(data: dict, write: bool) -> bool:
+    ok = True
+    for game in data["games"]:
+        if not sync_file(GAMES / game["id"] / "README.md",
+                         render_game_readme(game), write):
+            ok = False
+    return ok
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     actions = parser.add_mutually_exclusive_group(required=True)
-    actions.add_argument("--write", action="store_true", help="validate JSON and refresh README table")
-    actions.add_argument("--check", action="store_true", help="validate JSON and check README table")
+    actions.add_argument("--write", action="store_true", help="generate all catalog outputs")
+    actions.add_argument("--check", action="store_true", help="validate canonical entries and generated outputs")
     args = parser.parse_args()
     try:
-        data = json.loads(DATA.read_text(encoding="utf-8"))
+        data = load_directory_catalog()
         counts = validate_catalog(data)
-        if not sync_readme(data, write=args.write):
+        aggregate_ok = sync_aggregate(data, args.write)
+        pages_ok = sync_game_pages(data, args.write)
+        index_ok = sync_readme(data, args.write)
+        if not (aggregate_ok and pages_ok and index_ok):
             return 1
     except (CatalogError, json.JSONDecodeError, OSError) as exc:
         print(f"Catalog validation error: {exc}", file=sys.stderr)
         return 1
-    print(f"Catalog valid; README synchronized ({counts[0]} games, {counts[1]} builds).")
+    print(f"Catalog valid, generated outputs synchronized: {counts[0]} games, {counts[1]} builds.")
     return 0
 
 

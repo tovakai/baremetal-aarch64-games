@@ -1,0 +1,19 @@
+{
+  "id": "dungeons-of-freeport",
+  "title": "Dungeons of Freeport",
+  "genre": "Dungeon crawler / RPG",
+  "homepage": "https://funtimeelectrics.itch.io/dungeons-of-freeport",
+  "builds": [
+    {
+      "version": "1.0.14 (itch file version 11)",
+      "kind": "upstream",
+      "format": "tarball",
+      "target": "Portable Linux AArch64 tarball",
+      "url": "https://funtimeelectrics.itch.io/dungeons-of-freeport",
+      "evidence_url": "https://funtimeelectrics.itch.io/dungeons-of-freeport",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: dfp-linux-arm64-1.0.14.tar.bz2. Paid game, minimum $8 USD on publisher listing. ARM64 archive file claims 1.0.14, while itch labels that file Version 11. Steam Frame untested."
+    }
+  ]
+}

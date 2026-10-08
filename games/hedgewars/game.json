@@ -1,0 +1,19 @@
+{
+  "id": "hedgewars",
+  "title": "Hedgewars",
+  "genre": "Turn-based artillery",
+  "homepage": "https://hedgewars.org/",
+  "builds": [
+    {
+      "version": "1.0.3",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.hedgewars.Hedgewars",
+      "evidence_url": "https://flathub.org/en/apps/org.hedgewars.Hedgewars",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.hedgewars.Hedgewars. Hedgehog-themed artillery game; Steam Frame not tested."
+    }
+  ]
+}

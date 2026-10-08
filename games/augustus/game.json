@@ -1,0 +1,20 @@
+{
+  "id": "augustus",
+  "title": "Augustus (Caesar III)",
+  "genre": "City builder / enhanced source port",
+  "homepage": "https://flathub.org/en/apps/com.github.keriew.augustus",
+  "builds": [
+    {
+      "version": "4.0.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/com.github.keriew.augustus",
+      "evidence_url": "https://flathub.org/en/apps/com.github.keriew.augustus",
+      "last_checked": "2026-10-08",
+      "maintainer": "Augustus contributors",
+      "device_tests": [],
+      "notes": "Flathub lists Available Architectures: aarch64. Application ID com.github.keriew.augustus. Community Caesar III gameplay-enhanced source port based on Julius. Requires a legal copy of Caesar III assets. Distinct game client from Julius. Steam Frame untested."
+    }
+  ]
+}

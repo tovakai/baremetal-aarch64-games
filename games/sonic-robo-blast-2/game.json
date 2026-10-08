@@ -1,0 +1,19 @@
+{
+  "id": "sonic-robo-blast-2",
+  "title": "Sonic Robo Blast 2",
+  "genre": "3D platformer",
+  "homepage": "https://www.srb2.org/",
+  "builds": [
+    {
+      "version": "2.2.15",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.srb2.SRB2",
+      "evidence_url": "https://flathub.org/en/apps/org.srb2.SRB2",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.srb2.SRB2. Fan-made 3D Sonic game based on Doom Legacy, not an official Sega product; Steam Frame not tested."
+    }
+  ]
+}

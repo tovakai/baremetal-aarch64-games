@@ -1,0 +1,19 @@
+{
+  "id": "moonshot",
+  "title": "MoonShot",
+  "genre": "Retro arcade",
+  "homepage": "https://yoitsrexxy.itch.io/moonshot",
+  "builds": [
+    {
+      "version": "0.1.0 (prototype)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://yoitsrexxy.itch.io/moonshot",
+      "evidence_url": "https://yoitsrexxy.itch.io/moonshot",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: moonshot-0.1.0-linux-arm64. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

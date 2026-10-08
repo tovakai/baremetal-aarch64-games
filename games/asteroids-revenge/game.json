@@ -1,0 +1,19 @@
+{
+  "id": "asteroids-revenge",
+  "title": "Asteroids Revenge",
+  "genre": "Arcade shooter",
+  "homepage": "https://github.com/mlm-games/asteroids-revenge",
+  "builds": [
+    {
+      "version": "0.15.2",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.github.mlm_games.asteroids_revenge",
+      "evidence_url": "https://flathub.org/en/apps/io.github.mlm_games.asteroids_revenge",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.mlm_games.asteroids_revenge. Small independent arcade shooter; Steam Frame not tested."
+    }
+  ]
+}

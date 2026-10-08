@@ -1,0 +1,32 @@
+{
+  "id": "davenstein",
+  "title": "Davenstein",
+  "genre": "Retro FPS / Wolfenstein 3-D reimplementation",
+  "homepage": "https://github.com/Ophois47/Davenstein",
+  "builds": [
+    {
+      "version": "1.4.0",
+      "kind": "community",
+      "format": "appimage",
+      "target": "Generic Linux AArch64 (AppImage)",
+      "url": "https://github.com/Ophois47/Davenstein/releases/download/v1.4.0/Davenstein-1.4.0-aarch64.AppImage",
+      "evidence_url": "https://github.com/Ophois47/Davenstein/releases/tag/v1.4.0",
+      "last_checked": "2026-10-08",
+      "maintainer": "Ophois47",
+      "device_tests": [],
+      "notes": "Native ARM64 game/reimplementation of Wolfenstein 3-D; packaged AppImage explicitly listed in the maintainer's release. Not an official id Software release. Unverified on Steam Frame."
+    },
+    {
+      "version": "1.4.0",
+      "kind": "community",
+      "format": "tarball",
+      "target": "Generic Linux AArch64 (portable tar.gz)",
+      "url": "https://github.com/Ophois47/Davenstein/releases/download/v1.4.0/Davenstein-1.4.0-linux-aarch64.tar.gz",
+      "evidence_url": "https://github.com/Ophois47/Davenstein/releases/tag/v1.4.0",
+      "last_checked": "2026-10-08",
+      "maintainer": "Ophois47",
+      "device_tests": [],
+      "notes": "Separate portable ARM64 Linux archive of the same version. Not an official Wolfenstein release; Steam Frame untested."
+    }
+  ]
+}

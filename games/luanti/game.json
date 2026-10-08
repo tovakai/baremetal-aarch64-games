@@ -1,0 +1,19 @@
+{
+  "id": "luanti",
+  "title": "Luanti (formerly Minetest)",
+  "genre": "Voxel sandbox",
+  "homepage": "https://www.luanti.org/",
+  "builds": [
+    {
+      "version": "5.17.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.luanti.luanti",
+      "evidence_url": "https://flathub.org/en/apps/org.luanti.luanti",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.luanti.luanti. Voxel game platform with downloadable games and mods; Steam Frame not tested."
+    }
+  ]
+}

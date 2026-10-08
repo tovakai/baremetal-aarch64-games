@@ -1,0 +1,19 @@
+{
+  "id": "usagi-survivors",
+  "title": "Usagi Survivors",
+  "genre": "Bullet-heaven / survivor roguelite",
+  "homepage": "https://zeafy.itch.io/usagi-survivors",
+  "builds": [
+    {
+      "version": "0.1.3 (patch notes)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://zeafy.itch.io/usagi-survivors",
+      "evidence_url": "https://zeafy.itch.io/usagi-survivors",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: usagi-survivors-linux-aarch64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "openttd",
+  "title": "OpenTTD",
+  "genre": "Transport simulation",
+  "homepage": "https://www.openttd.org/",
+  "builds": [
+    {
+      "version": "14.1-1+b2",
+      "kind": "distribution",
+      "format": "deb",
+      "target": "Debian 13 (Trixie)",
+      "url": "https://packages.debian.org/trixie/arm64/openttd",
+      "evidence_url": "https://packages.debian.org/trixie/arm64/openttd",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Debian arm64 package; SteamOS and Steam Frame compatibility not established."
+    },
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/openttd",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/openttd/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "Slayer366, Cebion, romadu",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Separate PortMaster ARM64 packaging of OpenTTD that launches openttd.${DEVICE_ARCH} natively. Existing Debian package remains a separate build. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

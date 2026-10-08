@@ -1,0 +1,32 @@
+# Land of the Fallen Magi
+
+**Genre:** Roguelike / RPG
+
+**Game/project website:** [https://bamfoodle.itch.io/land-of-the-fallen-magi](https://bamfoodle.itch.io/land-of-the-fallen-magi)
+
+[← All games](../../README.md)
+
+## AArch64 builds
+
+### 1. unversioned (itch.io)
+
+- **Origin:** Upstream
+- **Format:** standalone
+- **Target:** Developer-provided Linux AArch64
+- **Build/download page:** [Open link](https://bamfoodle.itch.io/land-of-the-fallen-magi)
+- **Architecture evidence:** [Verify source](https://bamfoodle.itch.io/land-of-the-fallen-magi)
+- **Evidence checked:** 2026-10-08
+
+#### Notes
+
+ARM64 download identifier: land-of-the-fallen-magi-linux-arm64.zip. Developer states only Windows builds were tested. Steam Frame untested.
+
+#### Device compatibility
+
+No device tests recorded. An AArch64 release is not a confirmed Steam Frame test.
+
+---
+
+This page is generated from [game.json](game.json).
+To correct metadata or add a build, edit game.json and run python3 scripts/catalog.py --write from the repository root.
+Game assets and proprietary ROMs are not distributed here. See [contribution guidelines](../../CONTRIBUTING.md).

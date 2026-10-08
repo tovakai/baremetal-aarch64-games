@@ -338,25 +338,6 @@
       ]
     },
     {
-      "id": "chuckle-express",
-      "title": "Chuckle Express",
-      "genre": "Arcade / train management",
-      "homepage": "https://thejackimonster.itch.io/chuckle-express",
-      "builds": [
-        {
-          "version": "1.0.0",
-          "kind": "upstream",
-          "format": "standalone",
-          "target": "Developer-provided Linux AArch64",
-          "url": "https://thejackimonster.itch.io/chuckle-express",
-          "evidence_url": "https://thejackimonster.itch.io/chuckle-express",
-          "last_checked": "2026-10-08",
-          "device_tests": [],
-          "notes": "ARM64 download identifier: Chuckle-Express-v1.0.0-linux-arm64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
-        }
-      ]
-    },
-    {
       "id": "chateau-de-monstre",
       "title": "Château de Monstre",
       "genre": "Simulation / hotel management",
@@ -372,6 +353,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "ARM64 download identifier: ChateauDeMonstre (Linux-ARM64).zip. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "chuckle-express",
+      "title": "Chuckle Express",
+      "genre": "Arcade / train management",
+      "homepage": "https://thejackimonster.itch.io/chuckle-express",
+      "builds": [
+        {
+          "version": "1.0.0",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://thejackimonster.itch.io/chuckle-express",
+          "evidence_url": "https://thejackimonster.itch.io/chuckle-express",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Chuckle-Express-v1.0.0-linux-arm64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
         }
       ]
     },
@@ -961,6 +961,46 @@
       ]
     },
     {
+      "id": "jedi-academy-openjk",
+      "title": "Star Wars Jedi Knight: Jedi Academy (OpenJK)",
+      "genre": "Third-person action / FPS",
+      "homepage": "https://github.com/JACoders/OpenJK",
+      "builds": [
+        {
+          "version": "PortMaster package (rolling; retail game version user-supplied)",
+          "kind": "community",
+          "format": "portmaster",
+          "target": "PortMaster handheld Linux AArch64 (device-specific)",
+          "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/jediacademy",
+          "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/jediacademy/port.json",
+          "last_checked": "2026-10-08",
+          "maintainer": "brooksytech",
+          "device_tests": [],
+          "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled openjk_sp.aarch64 and rd-vanilla_aarch64.so; requires purchased Jedi Academy base game files. Handheld gl4es.aarch64 is environment-specific. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+        }
+      ]
+    },
+    {
+      "id": "jedi-outcast-openjk",
+      "title": "Star Wars Jedi Knight II: Jedi Outcast (OpenJK)",
+      "genre": "Third-person action / FPS",
+      "homepage": "https://github.com/JACoders/OpenJK",
+      "builds": [
+        {
+          "version": "PortMaster package (rolling; retail game version user-supplied)",
+          "kind": "community",
+          "format": "portmaster",
+          "target": "PortMaster handheld Linux AArch64 (device-specific)",
+          "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/jedioutcast",
+          "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/jedioutcast/port.json",
+          "last_checked": "2026-10-08",
+          "maintainer": "brooksytech",
+          "device_tests": [],
+          "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled openjo_sp.aarch64 and rdjosp-vanilla_aarch64.so; requires purchased Jedi Outcast base game files. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+        }
+      ]
+    },
+    {
       "id": "jigs-saw-puzzler",
       "title": "Jig's Saw Puzzler",
       "genre": "Jigsaw / puzzle",
@@ -1038,25 +1078,6 @@
       ]
     },
     {
-      "id": "legacyclonk",
-      "title": "LegacyClonk",
-      "genre": "Action / sandbox / strategy",
-      "homepage": "https://fulgen.itch.io/legacyclonk",
-      "builds": [
-        {
-          "version": "experimental Linux ARM64 (itch.io)",
-          "kind": "upstream",
-          "format": "standalone",
-          "target": "Developer-provided Linux AArch64",
-          "url": "https://fulgen.itch.io/legacyclonk",
-          "evidence_url": "https://fulgen.itch.io/legacyclonk",
-          "last_checked": "2026-10-08",
-          "device_tests": [],
-          "notes": "ARM64 download identifier: Linux ARM64 (experimental). Developer explicitly labels Linux ARM64 build EXPERIMENTAL. Its archive filename and game version were not visible. Steam Frame untested."
-        }
-      ]
-    },
-    {
       "id": "lba2-classic-community",
       "title": "Little Big Adventure 2 Classic Community",
       "genre": "Action adventure / engine port",
@@ -1085,6 +1106,25 @@
           "maintainer": "LBALab contributors",
           "device_tests": [],
           "notes": "Published release asset: lba2cc-0.12.0-linux-aarch64.tar.gz. Community-maintained original Twinsen's Odyssey engine source port. Own and provide original Little Big Adventure 2 game assets (Steam/GOG/CD); project does not redistribute game data. Flows directly through a native Linux ARM64 binary; Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "legacyclonk",
+      "title": "LegacyClonk",
+      "genre": "Action / sandbox / strategy",
+      "homepage": "https://fulgen.itch.io/legacyclonk",
+      "builds": [
+        {
+          "version": "experimental Linux ARM64 (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://fulgen.itch.io/legacyclonk",
+          "evidence_url": "https://fulgen.itch.io/legacyclonk",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Linux ARM64 (experimental). Developer explicitly labels Linux ARM64 build EXPERIMENTAL. Its archive filename and game version were not visible. Steam Frame untested."
         }
       ]
     },
@@ -1953,46 +1993,6 @@
       ]
     },
     {
-      "id": "jedi-outcast-openjk",
-      "title": "Star Wars Jedi Knight II: Jedi Outcast (OpenJK)",
-      "genre": "Third-person action / FPS",
-      "homepage": "https://github.com/JACoders/OpenJK",
-      "builds": [
-        {
-          "version": "PortMaster package (rolling; retail game version user-supplied)",
-          "kind": "community",
-          "format": "portmaster",
-          "target": "PortMaster handheld Linux AArch64 (device-specific)",
-          "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/jedioutcast",
-          "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/jedioutcast/port.json",
-          "last_checked": "2026-10-08",
-          "maintainer": "brooksytech",
-          "device_tests": [],
-          "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled openjo_sp.aarch64 and rdjosp-vanilla_aarch64.so; requires purchased Jedi Outcast base game files. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
-        }
-      ]
-    },
-    {
-      "id": "jedi-academy-openjk",
-      "title": "Star Wars Jedi Knight: Jedi Academy (OpenJK)",
-      "genre": "Third-person action / FPS",
-      "homepage": "https://github.com/JACoders/OpenJK",
-      "builds": [
-        {
-          "version": "PortMaster package (rolling; retail game version user-supplied)",
-          "kind": "community",
-          "format": "portmaster",
-          "target": "PortMaster handheld Linux AArch64 (device-specific)",
-          "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/jediacademy",
-          "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/jediacademy/port.json",
-          "last_checked": "2026-10-08",
-          "maintainer": "brooksytech",
-          "device_tests": [],
-          "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled openjk_sp.aarch64 and rd-vanilla_aarch64.so; requires purchased Jedi Academy base game files. Handheld gl4es.aarch64 is environment-specific. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
-        }
-      ]
-    },
-    {
       "id": "stardew-valley",
       "title": "Stardew Valley (compatibility branch)",
       "genre": "Farming / life simulation",
@@ -2123,25 +2123,6 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "ARM64 download identifier: GAZ-HD-1.4-Linux ARM64.zip. Pre-release. Publisher says English is not supported. Steam Frame untested."
-        }
-      ]
-    },
-    {
-      "id": "wesnoth",
-      "title": "The Battle for Wesnoth",
-      "genre": "Turn-based strategy",
-      "homepage": "https://www.wesnoth.org/",
-      "builds": [
-        {
-          "version": "1:1.18.5-1",
-          "kind": "distribution",
-          "format": "deb",
-          "target": "Debian 13 (Trixie)",
-          "url": "https://packages.debian.org/trixie/arm64/wesnoth-1.18",
-          "evidence_url": "https://packages.debian.org/trixie/arm64/wesnoth-1.18",
-          "last_checked": "2026-10-08",
-          "device_tests": [],
-          "notes": "Use the versioned game package, not the architecture-independent 'wesnoth' metapackage. SteamOS/Frame untested."
         }
       ]
     },
@@ -2371,6 +2352,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.wz2100.wz2100. Native RTS with both Vulkan and OpenGL-based backends; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "wesnoth",
+      "title": "The Battle for Wesnoth",
+      "genre": "Turn-based strategy",
+      "homepage": "https://www.wesnoth.org/",
+      "builds": [
+        {
+          "version": "1:1.18.5-1",
+          "kind": "distribution",
+          "format": "deb",
+          "target": "Debian 13 (Trixie)",
+          "url": "https://packages.debian.org/trixie/arm64/wesnoth-1.18",
+          "evidence_url": "https://packages.debian.org/trixie/arm64/wesnoth-1.18",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Use the versioned game package, not the architecture-independent 'wesnoth' metapackage. SteamOS/Frame untested."
         }
       ]
     },

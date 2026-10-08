@@ -1,0 +1,20 @@
+{
+  "id": "banjo-kazooie-recompiled",
+  "title": "Banjo-Kazooie: Recompiled",
+  "genre": "3D platformer / N64 static recompilation",
+  "homepage": "https://github.com/BanjoRecomp/BanjoRecomp",
+  "builds": [
+    {
+      "version": "1.0.2",
+      "kind": "community",
+      "format": "tarball",
+      "target": "Portable Linux AArch64 · native N64 static recompilation",
+      "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-ARM64.tar.gz",
+      "evidence_url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.2",
+      "last_checked": "2026-10-08",
+      "maintainer": "BanjoRecomp contributors",
+      "device_tests": [],
+      "notes": "GitHub-published Linux ARM64 artifact: BanjoRecompiled-v1.0.2-Linux-ARM64.tar.gz. Native N64 static recompilation of Banjo-Kazooie; requires a personally obtained North American 1.0 cartridge ROM. This community ARM64 Linux executable is not an emulator and does not include copyrighted original game data. Vulkan 1.2 graphics required; Steam Frame untested."
+    }
+  ]
+}

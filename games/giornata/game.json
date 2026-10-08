@@ -1,0 +1,19 @@
+{
+  "id": "giornata",
+  "title": "Giornata - A Day's Work",
+  "genre": "Interactive fiction / art",
+  "homepage": "https://biim-games.itch.io/giornata",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://biim-games.itch.io/giornata",
+      "evidence_url": "https://biim-games.itch.io/giornata",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Giornata - A Day's Work - Linux ARM64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

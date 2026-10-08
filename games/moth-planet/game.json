@@ -1,0 +1,30 @@
+{
+  "id": "moth-planet",
+  "title": "Moth Planet",
+  "genre": "Metroidvania / platformer",
+  "homepage": "https://mothfriedgames.itch.io/moth-planet",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://mothfriedgames.itch.io/moth-planet",
+      "evidence_url": "https://mothfriedgames.itch.io/moth-planet",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Moth Planet Full Linux arm64.zip. Paid full game. Also has free ARM64 demo, cataloged as second build. Steam Frame untested."
+    },
+    {
+      "version": "demo (unversioned itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 standalone (demo)",
+      "url": "https://mothfriedgames.itch.io/moth-planet",
+      "evidence_url": "https://mothfriedgames.itch.io/moth-planet",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Publisher lists Moth Planet Demo Linux arm64.zip, a free ARM64 demo of the paid full game. No Steam Frame test."
+    }
+  ]
+}

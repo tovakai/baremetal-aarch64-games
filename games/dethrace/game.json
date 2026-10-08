@@ -1,0 +1,20 @@
+{
+  "id": "dethrace",
+  "title": "Dethrace (Carmageddon)",
+  "genre": "Vehicular combat / racing",
+  "homepage": "https://github.com/dethrace-labs/dethrace",
+  "builds": [
+    {
+      "version": "0.10.1",
+      "kind": "community",
+      "format": "tarball",
+      "target": "Linux AArch64 · portable archive",
+      "url": "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-linux-arm64.tar.gz",
+      "evidence_url": "https://github.com/dethrace-labs/dethrace/releases/tag/v0.10.1",
+      "last_checked": "2026-10-08",
+      "maintainer": "Dethrace contributors",
+      "device_tests": [],
+      "notes": "Published release asset: dethrace-v0.10.1-linux-arm64.tar.gz. Community reverse-engineering/reimplementation of Carmageddon, not an official Carmageddon ARM64 release. Requires legally obtained original Carmageddon game data; native Linux ARM64 binary, no Steam Frame test."
+    }
+  ]
+}

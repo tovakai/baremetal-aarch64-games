@@ -1,0 +1,19 @@
+{
+  "id": "unciv",
+  "title": "Unciv",
+  "genre": "Turn-based 4X strategy",
+  "homepage": "https://github.com/yairm210/Unciv",
+  "builds": [
+    {
+      "version": "4.21.19",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.github.yairm210.unciv",
+      "evidence_url": "https://flathub.org/en/apps/io.github.yairm210.unciv",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.yairm210.unciv. Java strategy game packaged with native aarch64 runtime. Steam Frame not tested."
+    }
+  ]
+}

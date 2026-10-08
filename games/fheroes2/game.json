@@ -1,0 +1,20 @@
+{
+  "id": "fheroes2",
+  "title": "fheroes2 (Heroes of Might and Magic II)",
+  "genre": "Turn-based strategy / engine reimplementation",
+  "homepage": "https://github.com/ihhub/fheroes2",
+  "builds": [
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/fheroes2",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/fheroes2/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "romadu, ddrsoul",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled AArch64-native fheroes2 engine. Requires legitimate Heroes II data/maps/music/sounds, not included. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "odamex",
+  "title": "Odamex",
+  "genre": "Classic FPS / Doom source port",
+  "homepage": "https://odamex.net/",
+  "builds": [
+    {
+      "version": "12.3.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/net.odamex.Odamex",
+      "evidence_url": "https://flathub.org/en/apps/net.odamex.Odamex",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.odamex.Odamex. Doom source port: use legally acquired IWAD or free compatible game data. Native engine is not a distribution of commercial Doom games. Steam Frame not tested."
+    }
+  ]
+}

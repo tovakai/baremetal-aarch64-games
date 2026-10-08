@@ -1,0 +1,19 @@
+{
+  "id": "endless-sky",
+  "title": "Endless Sky",
+  "genre": "Space trading / adventure",
+  "homepage": "https://endless-sky.github.io/",
+  "builds": [
+    {
+      "version": "0.11.2",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.github.endless_sky.endless_sky",
+      "evidence_url": "https://flathub.org/en/apps/io.github.endless_sky.endless_sky",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.endless_sky.endless_sky. Open-source space exploration, trading, and combat; Steam Frame not tested."
+    }
+  ]
+}

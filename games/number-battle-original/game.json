@@ -1,0 +1,19 @@
+{
+  "id": "number-battle-original",
+  "title": "Number Battle (Original)",
+  "genre": "Tactical / action strategy",
+  "homepage": "https://enmark.itch.io/numberbattle",
+  "builds": [
+    {
+      "version": "0.6.1",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://enmark.itch.io/numberbattle",
+      "evidence_url": "https://enmark.itch.io/numberbattle",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: numberbattle-linux-arm64.zip. The original game is discontinued in favor of a rewrite, but 0.6.1 ARM64 Linux file remains listed. Steam Frame untested."
+    }
+  ]
+}

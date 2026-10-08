@@ -1,0 +1,19 @@
+{
+  "id": "ddnet",
+  "title": "DDNet",
+  "genre": "Co-op platformer",
+  "homepage": "https://ddnet.org/",
+  "builds": [
+    {
+      "version": "20.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/tw.ddnet.ddnet",
+      "evidence_url": "https://flathub.org/en/apps/tw.ddnet.ddnet",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: tw.ddnet.ddnet. Third-party/unverified Flatpak of DDNet; Steam Frame not tested."
+    }
+  ]
+}

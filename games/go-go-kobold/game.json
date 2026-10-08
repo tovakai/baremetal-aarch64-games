@@ -1,0 +1,19 @@
+{
+  "id": "go-go-kobold",
+  "title": "Go Go Kobold!",
+  "genre": "Puzzle / sorting",
+  "homepage": "https://achie.itch.io/go-go-kobold",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Linux AArch64 · itch.io ZIP",
+      "url": "https://achie.itch.io/go-go-kobold",
+      "evidence_url": "https://achie.itch.io/go-go-kobold",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Developer download: go-go-kobold-linux-aarch64.zip. Self-published native ARM64 export; short Game Boy-style puzzle game. Steam Frame not tested."
+    }
+  ]
+}

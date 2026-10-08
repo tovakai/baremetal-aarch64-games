@@ -1,0 +1,19 @@
+{
+  "id": "chateau-de-monstre",
+  "title": "Château de Monstre",
+  "genre": "Simulation / hotel management",
+  "homepage": "https://cosmo-leveling.itch.io/chateau-de-monstre",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://cosmo-leveling.itch.io/chateau-de-monstre",
+      "evidence_url": "https://cosmo-leveling.itch.io/chateau-de-monstre",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: ChateauDeMonstre (Linux-ARM64).zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

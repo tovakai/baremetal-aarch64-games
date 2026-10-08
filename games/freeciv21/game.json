@@ -1,0 +1,19 @@
+{
+  "id": "freeciv21",
+  "title": "Freeciv21",
+  "genre": "Turn-based 4X strategy",
+  "homepage": "https://longturn.net/",
+  "builds": [
+    {
+      "version": "3.1.2",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/net.longturn.freeciv21",
+      "evidence_url": "https://flathub.org/en/apps/net.longturn.freeciv21",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.longturn.freeciv21. Separate Freeciv fork with competitive multiplayer focus; Steam Frame not tested."
+    }
+  ]
+}

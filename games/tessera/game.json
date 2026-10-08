@@ -1,0 +1,19 @@
+{
+  "id": "tessera",
+  "title": "Tessera",
+  "genre": "Voxel sandbox",
+  "homepage": "https://lightning323.itch.io/tessera",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://lightning323.itch.io/tessera",
+      "evidence_url": "https://lightning323.itch.io/tessera",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Tessera - Linux arm64. Name-your-price download of an open-source voxel game. Steam Frame untested."
+    }
+  ]
+}

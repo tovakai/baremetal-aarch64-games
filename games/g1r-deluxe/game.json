@@ -1,0 +1,20 @@
+{
+  "id": "g1r-deluxe",
+  "title": "G1R Deluxe (Gen1Recomp)",
+  "genre": "RPG / Pokémon engine recreation",
+  "homepage": "https://github.com/bryanthaboi/gen1recomp",
+  "builds": [
+    {
+      "version": "0.3.63",
+      "kind": "community",
+      "format": "appimage",
+      "target": "Linux AArch64 · AppImage",
+      "url": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.63/gen1recomp-0.3.63-linux-arm64.AppImage",
+      "evidence_url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.63",
+      "last_checked": "2026-10-08",
+      "maintainer": "bryanthaboi",
+      "device_tests": [],
+      "notes": "Published release asset: gen1recomp-0.3.63-linux-arm64.AppImage. Unofficial Lua/LÖVE2D native engine recreation supporting classic Pokémon generations. User supplies their legally acquired compatible original ROM for game data and artwork; no copyrighted ROM included. Native AArch64 AppImage bundles compiled LÖVE/SDL libraries. Steam Frame untested."
+    }
+  ]
+}

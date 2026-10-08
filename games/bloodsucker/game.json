@@ -1,0 +1,19 @@
+{
+  "id": "bloodsucker",
+  "title": "Bloodsucker!",
+  "genre": "3D arcade / action",
+  "homepage": "https://tanm.itch.io/bloodsucker",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://tanm.itch.io/bloodsucker",
+      "evidence_url": "https://tanm.itch.io/bloodsucker",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Linux - ARM64. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

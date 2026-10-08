@@ -1,0 +1,19 @@
+{
+  "id": "tide-y-ing-up",
+  "title": "Tide-y-ing Up",
+  "genre": "Puzzle / relaxing",
+  "homepage": "https://twoe.itch.io/tide-y-ing-up",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://twoe.itch.io/tide-y-ing-up",
+      "evidence_url": "https://twoe.itch.io/tide-y-ing-up",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: game-linux-aarch64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

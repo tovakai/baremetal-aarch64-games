@@ -1,0 +1,30 @@
+{
+  "id": "freeciv",
+  "title": "Freeciv",
+  "genre": "Turn-based 4X strategy",
+  "homepage": "https://www.freeciv.org/",
+  "builds": [
+    {
+      "version": "3.2.6",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.freeciv.qt",
+      "evidence_url": "https://flathub.org/en/apps/org.freeciv.qt",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.freeciv.qt. Native Qt-based Freeciv client; cataloged as one build of Freeciv. Steam Frame not tested."
+    },
+    {
+      "version": "3.2.6",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64 (SDL2 frontend)",
+      "url": "https://flathub.org/en/apps/org.freeciv.sdl2",
+      "evidence_url": "https://flathub.org/en/apps/org.freeciv.sdl2",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.freeciv.sdl2. Second Freeciv client package; not a separate game. Steam Frame not tested."
+    }
+  ]
+}

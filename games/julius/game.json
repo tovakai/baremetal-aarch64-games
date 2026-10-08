@@ -1,0 +1,20 @@
+{
+  "id": "julius",
+  "title": "Julius (Caesar III)",
+  "genre": "City builder / engine reimplementation",
+  "homepage": "https://flathub.org/en/apps/com.github.bvschaik.julius",
+  "builds": [
+    {
+      "version": "1.8.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/com.github.bvschaik.julius",
+      "evidence_url": "https://flathub.org/en/apps/com.github.bvschaik.julius",
+      "last_checked": "2026-10-08",
+      "maintainer": "Julius contributors",
+      "device_tests": [],
+      "notes": "Flathub lists Available Architectures: aarch64. Application ID com.github.bvschaik.julius. Community Caesar III engine reimplementation distributed as an AArch64 Flatpak. Requires legally acquired Caesar III original data. Steam Frame untested."
+    }
+  ]
+}

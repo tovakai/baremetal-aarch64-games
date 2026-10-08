@@ -1,0 +1,20 @@
+{
+  "id": "celeste",
+  "title": "Celeste",
+  "genre": "Precision platformer",
+  "homepage": "https://www.celestegame.com/",
+  "builds": [
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/celeste",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/celeste/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "Johnny on Flame",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. ARM64 Mono squashfs runs managed Celeste.exe with FNA compatibility libraries. Requires DRM-free original retail files; not x86 translation. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "space-cadet-pinball",
+  "title": "Space Cadet Pinball",
+  "genre": "Pinball",
+  "homepage": "https://github.com/k4zmu2a/SpaceCadetPinball",
+  "builds": [
+    {
+      "version": "2.1.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/com.github.k4zmu2a.spacecadetpinball",
+      "evidence_url": "https://flathub.org/en/apps/com.github.k4zmu2a.spacecadetpinball",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.github.k4zmu2a.spacecadetpinball. Reverse-engineered game engine for classic Windows Space Cadet pinball, published as an aarch64 Flatpak. Steam Frame not tested."
+    }
+  ]
+}

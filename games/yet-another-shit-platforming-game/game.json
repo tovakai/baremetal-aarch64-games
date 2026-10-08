@@ -1,0 +1,19 @@
+{
+  "id": "yet-another-shit-platforming-game",
+  "title": "YetAnotherShitPlatformingGame",
+  "genre": "3D physics platformer",
+  "homepage": "https://sami9889.itch.io/yetanothershitplatforminggame",
+  "builds": [
+    {
+      "version": "early-access demo (2026)",
+      "kind": "upstream",
+      "format": "deb",
+      "target": "Developer-provided Debian AArch64",
+      "url": "https://sami9889.itch.io/yetanothershitplatforminggame",
+      "evidence_url": "https://sami9889.itch.io/yetanothershitplatforminggame",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: YetAnotherShitPlatformingGame-Linux-arm64.deb. Early-access demo, developer ARM64 .deb is not a generic installer for SteamOS. Steam Frame untested."
+    }
+  ]
+}

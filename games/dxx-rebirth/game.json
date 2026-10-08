@@ -1,0 +1,20 @@
+{
+  "id": "dxx-rebirth",
+  "title": "DXX-Rebirth (Descent 1 & 2)",
+  "genre": "6DOF space combat / source port",
+  "homepage": "https://flathub.org/en/apps/io.github.dxx_rebirth.dxx-rebirth",
+  "builds": [
+    {
+      "version": "0.60.0-beta2+a531f57",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.github.dxx_rebirth.dxx-rebirth",
+      "evidence_url": "https://flathub.org/en/apps/io.github.dxx_rebirth.dxx-rebirth",
+      "last_checked": "2026-10-08",
+      "maintainer": "DXX-Rebirth contributors",
+      "device_tests": [],
+      "notes": "Flathub lists Available Architectures: aarch64. Application ID io.github.dxx_rebirth.dxx-rebirth. Native AArch64 source port for Descent and Descent II; legally acquired original game assets required. Beta package; not a distributed copy of the commercial games. Steam Frame untested."
+    }
+  ]
+}

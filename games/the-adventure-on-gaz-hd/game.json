@@ -1,0 +1,19 @@
+{
+  "id": "the-adventure-on-gaz-hd",
+  "title": "The Adventure on Gaz HD",
+  "genre": "2D racing",
+  "homepage": "https://dimft.itch.io/gaz-hd",
+  "builds": [
+    {
+      "version": "1.4 pre-release",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://dimft.itch.io/gaz-hd",
+      "evidence_url": "https://dimft.itch.io/gaz-hd",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: GAZ-HD-1.4-Linux ARM64.zip. Pre-release. Publisher says English is not supported. Steam Frame untested."
+    }
+  ]
+}

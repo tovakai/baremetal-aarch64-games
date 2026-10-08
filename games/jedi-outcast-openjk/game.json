@@ -1,0 +1,20 @@
+{
+  "id": "jedi-outcast-openjk",
+  "title": "Star Wars Jedi Knight II: Jedi Outcast (OpenJK)",
+  "genre": "Third-person action / FPS",
+  "homepage": "https://github.com/JACoders/OpenJK",
+  "builds": [
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/jedioutcast",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/jedioutcast/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "brooksytech",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled openjo_sp.aarch64 and rdjosp-vanilla_aarch64.so; requires purchased Jedi Outcast base game files. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

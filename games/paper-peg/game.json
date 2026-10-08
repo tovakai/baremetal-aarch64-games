@@ -1,0 +1,19 @@
+{
+  "id": "paper-peg",
+  "title": "Paper Peg",
+  "genre": "Puzzle / physics",
+  "homepage": "https://ccoors.itch.io/paper-peg",
+  "builds": [
+    {
+      "version": "0.9.5 (development)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://ccoors.itch.io/paper-peg",
+      "evidence_url": "https://ccoors.itch.io/paper-peg",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Linux (arm64). Development version 0.9.5, not a final release. Steam Frame untested."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cataclysm-bright-nights",
+  "title": "Cataclysm: Bright Nights",
+  "genre": "Survival roguelike",
+  "homepage": "https://www.cataclysmbn.org",
+  "builds": [
+    {
+      "version": "0.12.0",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.cataclysmbn.CataclysmBN",
+      "evidence_url": "https://flathub.org/en/apps/org.cataclysmbn.CataclysmBN",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.cataclysmbn.CataclysmBN. Separate game fork from Cataclysm: Dark Days Ahead; Steam Frame not tested."
+    }
+  ]
+}

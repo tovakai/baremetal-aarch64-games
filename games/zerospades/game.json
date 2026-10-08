@@ -1,0 +1,20 @@
+{
+  "id": "zerospades",
+  "title": "ZeroSpades",
+  "genre": "Voxel FPS / multiplayer community fork",
+  "homepage": "https://flathub.org/en/apps/io.github.zerospades.ZeroSpades",
+  "builds": [
+    {
+      "version": "0.0.9",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/io.github.zerospades.ZeroSpades",
+      "evidence_url": "https://flathub.org/en/apps/io.github.zerospades.ZeroSpades",
+      "last_checked": "2026-10-08",
+      "maintainer": "ZeroSpades contributors",
+      "device_tests": [],
+      "notes": "Flathub lists Available Architectures: aarch64. Application ID io.github.zerospades.ZeroSpades. Active community fork of OpenSpades, itself based on Ace of Spades 0.75; independently released AArch64 Flatpak. Not the original OpenSpades app (which is x86_64-only on Flathub). Steam Frame untested."
+    }
+  ]
+}

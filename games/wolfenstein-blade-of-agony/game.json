@@ -1,0 +1,19 @@
+{
+  "id": "wolfenstein-blade-of-agony",
+  "title": "Wolfenstein: Blade of Agony",
+  "genre": "Retro FPS",
+  "homepage": "https://boa.realm667.com/",
+  "builds": [
+    {
+      "version": "3.1",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/com.realm667.Wolfenstein_Blade_of_Agony",
+      "evidence_url": "https://flathub.org/en/apps/com.realm667.Wolfenstein_Blade_of_Agony",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.realm667.Wolfenstein_Blade_of_Agony. Standalone story-driven GZDoom-based FPS (not official Wolfenstein); Steam Frame not tested."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "quake-3-quake3e",
+  "title": "Quake III Arena (Quake3e)",
+  "genre": "Arena FPS",
+  "homepage": "https://github.com/ec-/Quake3e",
+  "builds": [
+    {
+      "version": "PortMaster package (rolling; retail game version user-supplied)",
+      "kind": "community",
+      "format": "portmaster",
+      "target": "PortMaster handheld Linux AArch64 (device-specific)",
+      "url": "https://github.com/PortsMaster/PortMaster-New/tree/main/ports/quake3",
+      "evidence_url": "https://github.com/PortsMaster/PortMaster-New/blob/main/ports/quake3/port.json",
+      "last_checked": "2026-10-08",
+      "maintainer": "brooksytech",
+      "device_tests": [],
+      "notes": "PortMaster port.json declares aarch64, with launch script/native engine inspected. Bundled quake3e.aarch64 and handheld gl4es.aarch64 integration; requires original Quake III full game pak files and product key. Requires PortMaster and applicable native runtime or controller/graphics libraries. NOT tested on Steam Frame; do not assume this package works directly on SteamOS."
+    }
+  ]
+}

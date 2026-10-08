@@ -1,0 +1,19 @@
+{
+  "id": "radium-master",
+  "title": "Radium Master",
+  "genre": "JRPG / turn-based role-playing",
+  "homepage": "https://code-watermelon.itch.io/radium-master",
+  "builds": [
+    {
+      "version": "0.1.1 (demo/prototype)",
+      "kind": "upstream",
+      "format": "tarball",
+      "target": "Portable Linux AArch64 tarball",
+      "url": "https://code-watermelon.itch.io/radium-master",
+      "evidence_url": "https://code-watermelon.itch.io/radium-master",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Radium Master (linux-arm64).tar.gz. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

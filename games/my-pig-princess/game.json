@@ -1,0 +1,28 @@
+{
+  "id": "my-pig-princess",
+  "title": "My Pig Princess",
+  "genre": "Visual novel",
+  "homepage": "https://www.patreon.com/CyanCapsule",
+  "builds": [
+    {
+      "version": "0.10.1",
+      "kind": "community",
+      "format": "conversion",
+      "target": "Steam Frame · Linux AArch64",
+      "url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai",
+      "evidence_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility",
+      "last_checked": "2026-10-08",
+      "maintainer": "tovakai",
+      "device_tests": [
+        {
+          "device": "Steam Frame",
+          "os": "SteamOS VR (exact version not recorded)",
+          "date": "2026-10-08",
+          "result": "works",
+          "report_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility"
+        }
+      ],
+      "notes": "Player-owned native ARM64 conversion using Ren'Py 8.3.7 runtime. Gameplay confirmed on Steam Frame via Frametop Xwayland after preserving Python .pyc bytecode and executable permissions; no full playthrough claimed. This is not an official ARM64 release. Game assets obtained separately from rights holder."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "widelands",
+  "title": "Widelands",
+  "genre": "Settlement strategy / RTS",
+  "homepage": "https://www.widelands.org/",
+  "builds": [
+    {
+      "version": "1.3.1",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.widelands.Widelands",
+      "evidence_url": "https://flathub.org/en/apps/org.widelands.Widelands",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.widelands.Widelands. Original open-source settlement strategy game; Steam Frame not tested."
+    }
+  ]
+}

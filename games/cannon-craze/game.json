@@ -1,0 +1,19 @@
+{
+  "id": "cannon-craze",
+  "title": "CannonCraze",
+  "genre": "Arcade / physics shooter",
+  "homepage": "https://github.com/theanasuddin/CannonCraze",
+  "builds": [
+    {
+      "version": "1.1.0",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://github.com/theanasuddin/CannonCraze/releases/download/v1.1.0/CannonCraze-linux-arm64.zip",
+      "evidence_url": "https://github.com/theanasuddin/CannonCraze/releases/tag/v1.1.0",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: CannonCraze-linux-arm64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

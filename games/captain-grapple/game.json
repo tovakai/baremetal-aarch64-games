@@ -1,0 +1,19 @@
+{
+  "id": "captain-grapple",
+  "title": "Captain Grapple",
+  "genre": "Bullet-hell shoot 'em up",
+  "homepage": "https://agoogaloo.itch.io/captain-grapple",
+  "builds": [
+    {
+      "version": "1.1.0 (ARM64 arcade variant)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://agoogaloo.itch.io/captain-grapple",
+      "evidence_url": "https://agoogaloo.itch.io/captain-grapple",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: linux-arm64 (Arcade ver)-1.1.0.zip. ARM64 download is the arcade build of 1.1.0, NOT the ordinary Linux x64 1.1.1 game. Steam Frame untested."
+    }
+  ]
+}

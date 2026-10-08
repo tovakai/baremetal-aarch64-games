@@ -1,0 +1,19 @@
+{
+  "id": "chuckle-express",
+  "title": "Chuckle Express",
+  "genre": "Arcade / train management",
+  "homepage": "https://thejackimonster.itch.io/chuckle-express",
+  "builds": [
+    {
+      "version": "1.0.0",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://thejackimonster.itch.io/chuckle-express",
+      "evidence_url": "https://thejackimonster.itch.io/chuckle-express",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Chuckle-Express-v1.0.0-linux-arm64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

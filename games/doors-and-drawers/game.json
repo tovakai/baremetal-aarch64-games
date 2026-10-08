@@ -1,0 +1,19 @@
+{
+  "id": "doors-and-drawers",
+  "title": "Doors and Drawers",
+  "genre": "Exploration prototype",
+  "homepage": "https://josemoya.itch.io/doors-and-drawers",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://josemoya.itch.io/doors-and-drawers",
+      "evidence_url": "https://josemoya.itch.io/doors-and-drawers",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: doorsanddrawers-.linux-arm64.zip. Unfinished 2022 prototype. Developer says gameplay is incomplete; an ARM Java runtime is required. Catalog entry is NOT a recommendation that it works as a complete game. Steam Frame untested."
+    }
+  ]
+}

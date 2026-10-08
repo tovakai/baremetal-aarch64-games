@@ -1,0 +1,19 @@
+{
+  "id": "toney-the-music-tutor",
+  "title": "Toney the Music Tutor",
+  "genre": "Educational / music game",
+  "homepage": "https://izzyboris.itch.io/toney",
+  "builds": [
+    {
+      "version": "0.9.2 (game changelog)",
+      "kind": "upstream",
+      "format": "standalone",
+      "target": "Developer-provided Linux AArch64",
+      "url": "https://izzyboris.itch.io/toney",
+      "evidence_url": "https://izzyboris.itch.io/toney",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: Toney the Music Tutor (Linux arm64/Raspberry Pi). Paid PICO-8 educational game; ARM64/Raspberry Pi package explicitly listed, no exact filename disclosed. Steam Frame untested."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "shattered-pixel-dungeon",
+  "title": "Shattered Pixel Dungeon",
+  "genre": "Turn-based roguelike",
+  "homepage": "https://shatteredpixel.com/",
+  "builds": [
+    {
+      "version": "3.3.7",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/com.shatteredpixel.shatteredpixeldungeon",
+      "evidence_url": "https://flathub.org/en/apps/com.shatteredpixel.shatteredpixeldungeon",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.shatteredpixel.shatteredpixeldungeon. Community-maintained Flatpak of a Java game, packaged for native aarch64 runtime; Steam Frame not tested."
+    }
+  ]
+}

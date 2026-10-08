@@ -1,0 +1,19 @@
+{
+  "id": "xonotic",
+  "title": "Xonotic",
+  "genre": "Arena FPS",
+  "homepage": "https://xonotic.org/",
+  "builds": [
+    {
+      "version": "0.8.6",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.xonotic.Xonotic",
+      "evidence_url": "https://flathub.org/en/apps/org.xonotic.Xonotic",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.xonotic.Xonotic. Native ARM64 Flatpak of free arena FPS; Steam Frame not tested."
+    }
+  ]
+}

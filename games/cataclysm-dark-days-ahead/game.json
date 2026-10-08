@@ -1,0 +1,19 @@
+{
+  "id": "cataclysm-dark-days-ahead",
+  "title": "Cataclysm: Dark Days Ahead",
+  "genre": "Survival roguelike",
+  "homepage": "https://www.cataclysmdda.org",
+  "builds": [
+    {
+      "version": "0.I",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/org.cataclysmdda.CataclysmDDA",
+      "evidence_url": "https://flathub.org/en/apps/org.cataclysmdda.CataclysmDDA",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.cataclysmdda.CataclysmDDA. Stable 0.I branch package; Steam Frame not tested."
+    }
+  ]
+}

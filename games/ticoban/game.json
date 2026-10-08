@@ -1,0 +1,19 @@
+{
+  "id": "ticoban",
+  "title": "Ticoban",
+  "genre": "Sokoban / puzzle",
+  "homepage": "https://son-link.itch.io/ticoban",
+  "builds": [
+    {
+      "version": "unversioned (itch.io)",
+      "kind": "upstream",
+      "format": "tarball",
+      "target": "Portable Linux AArch64 tarball",
+      "url": "https://son-link.itch.io/ticoban",
+      "evidence_url": "https://son-link.itch.io/ticoban",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "ARM64 download identifier: ticoban-linux-aarch64.tar.xz. Developer-published Linux AArch64 build. Steam Frame untested."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mindustry",
+  "title": "Mindustry",
+  "genre": "Tower defense / factory",
+  "homepage": "https://mindustrygame.github.io/",
+  "builds": [
+    {
+      "version": "v159.7",
+      "kind": "distribution",
+      "format": "flatpak",
+      "target": "Flathub · Linux AArch64",
+      "url": "https://flathub.org/en/apps/com.github.Anuken.Mindustry",
+      "evidence_url": "https://flathub.org/en/apps/com.github.Anuken.Mindustry",
+      "last_checked": "2026-10-08",
+      "device_tests": [],
+      "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.github.Anuken.Mindustry. Community-provided Flatpak not verified by Anuken; Java-based game packaged for aarch64, using a native architecture runtime. Steam Frame not tested."
+    }
+  ]
+}
