@@ -21,6 +21,25 @@
       ]
     },
     {
+      "id": "a-car-that-turns",
+      "title": "A Car That Turns",
+      "genre": "Racing / drifting",
+      "homepage": "https://amirrajan.itch.io/a-car-that-turns",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://amirrajan.itch.io/a-car-that-turns",
+          "evidence_url": "https://amirrajan.itch.io/a-car-that-turns",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: a-car-that-turns-linux-arm64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "armagetron-advanced",
       "title": "Armagetron Advanced",
       "genre": "Arcade / lightcycle",
@@ -55,6 +74,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.mlm_games.asteroids_revenge. Small independent arcade shooter; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "beamlab",
+      "title": "BeamLab",
+      "genre": "Rhythm / puzzle",
+      "homepage": "https://wet-cement-studios.itch.io/beamlab",
+      "builds": [
+        {
+          "version": "0.4.0",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://wet-cement-studios.itch.io/beamlab",
+          "evidence_url": "https://wet-cement-studios.itch.io/beamlab",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: BeamLab-v0.4.0-linux.arm64. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "bloodsucker",
+      "title": "Bloodsucker!",
+      "genre": "3D arcade / action",
+      "homepage": "https://tanm.itch.io/bloodsucker",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://tanm.itch.io/bloodsucker",
+          "evidence_url": "https://tanm.itch.io/bloodsucker",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Linux - ARM64. Developer-published Linux AArch64 build. Steam Frame untested."
         }
       ]
     },
@@ -102,6 +159,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.hhoney.candy. Independent screen-wrapping arcade game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "cannon-craze",
+      "title": "CannonCraze",
+      "genre": "Arcade / physics shooter",
+      "homepage": "https://github.com/theanasuddin/CannonCraze",
+      "builds": [
+        {
+          "version": "1.1.0",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://github.com/theanasuddin/CannonCraze/releases/download/v1.1.0/CannonCraze-linux-arm64.zip",
+          "evidence_url": "https://github.com/theanasuddin/CannonCraze/releases/tag/v1.1.0",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: CannonCraze-linux-arm64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "captain-grapple",
+      "title": "Captain Grapple",
+      "genre": "Bullet-hell shoot 'em up",
+      "homepage": "https://agoogaloo.itch.io/captain-grapple",
+      "builds": [
+        {
+          "version": "1.1.0 (ARM64 arcade variant)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://agoogaloo.itch.io/captain-grapple",
+          "evidence_url": "https://agoogaloo.itch.io/captain-grapple",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: linux-arm64 (Arcade ver)-1.1.0.zip. ARM64 download is the arcade build of 1.1.0, NOT the ordinary Linux x64 1.1.1 game. Steam Frame untested."
         }
       ]
     },
@@ -159,6 +254,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.gitlab.coringao.cavestory-nx. Community-maintained NXEngine-evo version of Cave Story. This is not an official game release. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "chuckle-express",
+      "title": "Chuckle Express",
+      "genre": "Arcade / train management",
+      "homepage": "https://thejackimonster.itch.io/chuckle-express",
+      "builds": [
+        {
+          "version": "1.0.0",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://thejackimonster.itch.io/chuckle-express",
+          "evidence_url": "https://thejackimonster.itch.io/chuckle-express",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Chuckle-Express-v1.0.0-linux-arm64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "chateau-de-monstre",
+      "title": "Château de Monstre",
+      "genre": "Simulation / hotel management",
+      "homepage": "https://cosmo-leveling.itch.io/chateau-de-monstre",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://cosmo-leveling.itch.io/chateau-de-monstre",
+          "evidence_url": "https://cosmo-leveling.itch.io/chateau-de-monstre",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: ChateauDeMonstre (Linux-ARM64).zip. Developer-published Linux AArch64 build. Steam Frame untested."
         }
       ]
     },
@@ -253,6 +386,25 @@
       ]
     },
     {
+      "id": "doors-and-drawers",
+      "title": "Doors and Drawers",
+      "genre": "Exploration prototype",
+      "homepage": "https://josemoya.itch.io/doors-and-drawers",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://josemoya.itch.io/doors-and-drawers",
+          "evidence_url": "https://josemoya.itch.io/doors-and-drawers",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: doorsanddrawers-.linux-arm64.zip. Unfinished 2022 prototype. Developer says gameplay is incomplete; an ARM Java runtime is required. Catalog entry is NOT a recommendation that it works as a complete game. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "doukutsu-rs",
       "title": "doukutsu-rs (Cave Story engine)",
       "genre": "Action adventure / platformer",
@@ -287,6 +439,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Developer download: downcycling-linux-arm64.zip. Godot stealth/puzzle prototype, Linux ARM64 ZIP marked version 6. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "dungeons-of-freeport",
+      "title": "Dungeons of Freeport",
+      "genre": "Dungeon crawler / RPG",
+      "homepage": "https://funtimeelectrics.itch.io/dungeons-of-freeport",
+      "builds": [
+        {
+          "version": "1.0.14 (itch file version 11)",
+          "kind": "upstream",
+          "format": "tarball",
+          "target": "Portable Linux AArch64 tarball",
+          "url": "https://funtimeelectrics.itch.io/dungeons-of-freeport",
+          "evidence_url": "https://funtimeelectrics.itch.io/dungeons-of-freeport",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: dfp-linux-arm64-1.0.14.tar.bz2. Paid game, minimum $8 USD on publisher listing. ARM64 archive file claims 1.0.14, while itch labels that file Version 11. Steam Frame untested."
         }
       ]
     },
@@ -338,6 +509,25 @@
       ]
     },
     {
+      "id": "football-fans",
+      "title": "Football Fans",
+      "genre": "Local multiplayer sports",
+      "homepage": "https://calandir.itch.io/football-fans",
+      "builds": [
+        {
+          "version": "build cff0026ce",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://calandir.itch.io/football-fans",
+          "evidence_url": "https://calandir.itch.io/football-fans",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Linux arm64 (build cff0026ce).zip. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "freeciv",
       "title": "Freeciv",
       "genre": "Turn-based 4X strategy",
@@ -383,6 +573,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.longturn.freeciv21. Separate Freeciv fork with competitive multiplayer focus; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "giornata",
+      "title": "Giornata - A Day's Work",
+      "genre": "Interactive fiction / art",
+      "homepage": "https://biim-games.itch.io/giornata",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://biim-games.itch.io/giornata",
+          "evidence_url": "https://biim-games.itch.io/giornata",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Giornata - A Day's Work - Linux ARM64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "gloomdrill",
+      "title": "Gloomdrill",
+      "genre": "RPG / survival strategy",
+      "homepage": "https://jsolve.itch.io/gloomdrill",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "tarball",
+          "target": "Portable Linux AArch64 tarball",
+          "url": "https://jsolve.itch.io/gloomdrill",
+          "evidence_url": "https://jsolve.itch.io/gloomdrill",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Gloomdrill-linux-arm64.tar.gz. Developer-published Linux AArch64 build. Steam Frame untested."
         }
       ]
     },
@@ -491,6 +719,44 @@
       ]
     },
     {
+      "id": "land-of-the-fallen-magi",
+      "title": "Land of the Fallen Magi",
+      "genre": "Roguelike / RPG",
+      "homepage": "https://bamfoodle.itch.io/land-of-the-fallen-magi",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://bamfoodle.itch.io/land-of-the-fallen-magi",
+          "evidence_url": "https://bamfoodle.itch.io/land-of-the-fallen-magi",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: land-of-the-fallen-magi-linux-arm64.zip. Developer states only Windows builds were tested. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "legacyclonk",
+      "title": "LegacyClonk",
+      "genre": "Action / sandbox / strategy",
+      "homepage": "https://fulgen.itch.io/legacyclonk",
+      "builds": [
+        {
+          "version": "experimental Linux ARM64 (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://fulgen.itch.io/legacyclonk",
+          "evidence_url": "https://fulgen.itch.io/legacyclonk",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Linux ARM64 (experimental). Developer explicitly labels Linux ARM64 build EXPERIMENTAL. Its archive filename and game version were not visible. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "luanti",
       "title": "Luanti (formerly Minetest)",
       "genre": "Voxel sandbox",
@@ -510,6 +776,25 @@
       ]
     },
     {
+      "id": "mighty-moth",
+      "title": "Mighty Moth and the Horrible, Terrible, Awful, No-Good Day",
+      "genre": "Arcade action / runner",
+      "homepage": "https://mothfriedgames.itch.io/mighty-moth-htangd",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://mothfriedgames.itch.io/mighty-moth-htangd",
+          "evidence_url": "https://mothfriedgames.itch.io/mighty-moth-htangd",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Mighty Moth Linux arm64.zip. Game jam prototype; no Steam Frame testing. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "mindustry",
       "title": "Mindustry",
       "genre": "Tower defense / factory",
@@ -525,6 +810,74 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: com.github.Anuken.Mindustry. Community-provided Flatpak not verified by Anuken; Java-based game packaged for aarch64, using a native architecture runtime. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "moonshot",
+      "title": "MoonShot",
+      "genre": "Retro arcade",
+      "homepage": "https://yoitsrexxy.itch.io/moonshot",
+      "builds": [
+        {
+          "version": "0.1.0 (prototype)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://yoitsrexxy.itch.io/moonshot",
+          "evidence_url": "https://yoitsrexxy.itch.io/moonshot",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: moonshot-0.1.0-linux-arm64. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "moth-planet",
+      "title": "Moth Planet",
+      "genre": "Metroidvania / platformer",
+      "homepage": "https://mothfriedgames.itch.io/moth-planet",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://mothfriedgames.itch.io/moth-planet",
+          "evidence_url": "https://mothfriedgames.itch.io/moth-planet",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Moth Planet Full Linux arm64.zip. Paid full game. Also has free ARM64 demo, cataloged as second build. Steam Frame untested."
+        },
+        {
+          "version": "demo (unversioned itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 standalone (demo)",
+          "url": "https://mothfriedgames.itch.io/moth-planet",
+          "evidence_url": "https://mothfriedgames.itch.io/moth-planet",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Publisher lists Moth Planet Demo Linux arm64.zip, a free ARM64 demo of the paid full game. No Steam Frame test."
+        }
+      ]
+    },
+    {
+      "id": "mr-rosens-watering-tactics",
+      "title": "Mr. Rosen's Watering Tactics",
+      "genre": "Arcade shoot-'em-up",
+      "homepage": "https://aedr.itch.io/mr-rosens-watering-tactics",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://aedr.itch.io/mr-rosens-watering-tactics",
+          "evidence_url": "https://aedr.itch.io/mr-rosens-watering-tactics",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: linux-aarch64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
         }
       ]
     },
@@ -553,6 +906,25 @@
             }
           ],
           "notes": "Player-owned native ARM64 conversion using Ren'Py 8.3.7 runtime. Gameplay confirmed on Steam Frame via Frametop Xwayland after preserving Python .pyc bytecode and executable permissions; no full playthrough claimed. This is not an official ARM64 release. Game assets obtained separately from rights holder."
+        }
+      ]
+    },
+    {
+      "id": "nacre",
+      "title": "Nacre",
+      "genre": "First-person shooter",
+      "homepage": "https://osefshell.itch.io/nacre",
+      "builds": [
+        {
+          "version": "prototype (itch.io)",
+          "kind": "upstream",
+          "format": "other",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://osefshell.itch.io/nacre",
+          "evidence_url": "https://osefshell.itch.io/nacre",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Nacre - Linux (Arm64) (external link). Unreal Engine FPS prototype; Linux ARM64 is an external hosted download, not a directly verified binary. Steam Frame untested."
         }
       ]
     },
@@ -610,6 +982,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Developer download: Not Enough Fuel - Linux (arm64).zip. Godot XR game. Developer has tested Linux PCVR and Quest 2, but explicitly states that this ARM64 build has NOT been tested on Steam Frame. No headset compatibility is claimed."
+        }
+      ]
+    },
+    {
+      "id": "number-battle-original",
+      "title": "Number Battle (Original)",
+      "genre": "Tactical / action strategy",
+      "homepage": "https://enmark.itch.io/numberbattle",
+      "builds": [
+        {
+          "version": "0.6.1",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://enmark.itch.io/numberbattle",
+          "evidence_url": "https://enmark.itch.io/numberbattle",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: numberbattle-linux-arm64.zip. The original game is discontinued in favor of a rewrite, but 0.6.1 ARM64 Linux file remains listed. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "obsidian-pipe-puzzle",
+      "title": "Obsidian (pipe puzzle)",
+      "genre": "Puzzle / logic",
+      "homepage": "https://overloadedorama.itch.io/obsidian",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "tarball",
+          "target": "Portable Linux AArch64 tarball",
+          "url": "https://overloadedorama.itch.io/obsidian",
+          "evidence_url": "https://overloadedorama.itch.io/obsidian",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Linux ARM64.tar.gz. Developer-published Linux AArch64 build. Steam Frame untested."
         }
       ]
     },
@@ -785,6 +1195,44 @@
       ]
     },
     {
+      "id": "orbital-clash",
+      "title": "Orbital Clash",
+      "genre": "Space shooter / gravity",
+      "homepage": "https://milkmanjohn.itch.io/orbital-clash",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://milkmanjohn.itch.io/orbital-clash",
+          "evidence_url": "https://milkmanjohn.itch.io/orbital-clash",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Linux arm64. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "paper-peg",
+      "title": "Paper Peg",
+      "genre": "Puzzle / physics",
+      "homepage": "https://ccoors.itch.io/paper-peg",
+      "builds": [
+        {
+          "version": "0.9.5 (development)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://ccoors.itch.io/paper-peg",
+          "evidence_url": "https://ccoors.itch.io/paper-peg",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Linux (arm64). Development version 0.9.5, not a final release. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "pond-protect",
       "title": "Pond Protect",
       "genre": "Arcade shoot-'em-up",
@@ -848,15 +1296,53 @@
       "homepage": "https://wlhq.itch.io/racing-dash-2d",
       "builds": [
         {
-          "version": "0.2.8",
+          "version": "2.0.9",
           "kind": "upstream",
           "format": "standalone",
           "target": "Linux AArch64 · itch.io ZIP",
           "url": "https://wlhq.itch.io/racing-dash-2d",
-          "evidence_url": "https://wlhq.itch.io/racing-dash-2d/devlog/877975/racing-dash-version-028",
+          "evidence_url": "https://wlhq.itch.io/racing-dash-2d",
           "last_checked": "2026-10-08",
           "device_tests": [],
-          "notes": "Developer download: Linux-arm64.zip. Developer's 0.2.8 devlog explicitly lists a native ARM64 Linux ZIP; Steam Frame not tested."
+          "notes": "Publisher currently lists Racing Dash 2D Linux arm64 v2.0.9.zip, superseding the older seeded 0.2.8 release. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "radium-master",
+      "title": "Radium Master",
+      "genre": "JRPG / turn-based role-playing",
+      "homepage": "https://code-watermelon.itch.io/radium-master",
+      "builds": [
+        {
+          "version": "0.1.1 (demo/prototype)",
+          "kind": "upstream",
+          "format": "tarball",
+          "target": "Portable Linux AArch64 tarball",
+          "url": "https://code-watermelon.itch.io/radium-master",
+          "evidence_url": "https://code-watermelon.itch.io/radium-master",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Radium Master (linux-arm64).tar.gz. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "raid-on-the-sarcophagus",
+      "title": "Raid on the Sarcophagus Engine",
+      "genre": "Sci-fi puzzle / typing",
+      "homepage": "https://arsaltai.itch.io/raid-on-the-sarcophagus",
+      "builds": [
+        {
+          "version": "1.1.4 (WIP)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://arsaltai.itch.io/raid-on-the-sarcophagus",
+          "evidence_url": "https://arsaltai.itch.io/raid-on-the-sarcophagus",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Linux (Arm64). Developer-published Linux AArch64 build. Steam Frame untested."
         }
       ]
     },
@@ -933,6 +1419,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Developer download: riftborne-linux-arm64.zip. Paid original indie game. Developer sells an ARM64 Linux ZIP on itch.io; purchase is required. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "sabox-world",
+      "title": "SABox World",
+      "genre": "Sandbox / world editor",
+      "homepage": "https://teamplaygame.itch.io/sabox-world",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://teamplaygame.itch.io/sabox-world",
+          "evidence_url": "https://teamplaygame.itch.io/sabox-world",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: SABox World Linux arm64. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "satoris-love-counsel",
+      "title": "Satori's Love Counsel",
+      "genre": "First-person narrative / romance",
+      "homepage": "https://avyssos.itch.io/slc",
+      "builds": [
+        {
+          "version": "1.0.3 FINAL",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://avyssos.itch.io/slc",
+          "evidence_url": "https://avyssos.itch.io/slc",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: linux-arm64_1.0.3_FINAL.zip. Publisher explicitly warns that this ARM64 build has NOT BEEN TESTED. Steam Frame untested."
         }
       ]
     },
@@ -1051,6 +1575,25 @@
       ]
     },
     {
+      "id": "termcom",
+      "title": "TermCom",
+      "genre": "ASCII tactical roguelike / strategy",
+      "homepage": "https://taislin.itch.io/termcom",
+      "builds": [
+        {
+          "version": "0.52.1",
+          "kind": "upstream",
+          "format": "other",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://taislin.itch.io/termcom",
+          "evidence_url": "https://taislin.itch.io/termcom",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Termcom v0.52.1 (Linux ARM64) (external link). Native terminal strategy release linked externally from developer page; architecture stated but binary not personally inspected. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "terminalpolyominos",
       "title": "terminalpolyominos",
       "genre": "Arcade / falling-block puzzle",
@@ -1066,6 +1609,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Developer download: linux aarch64 appimage. itch.io explicitly links an external Linux AArch64 AppImage. Actual external release version not established; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "tessera",
+      "title": "Tessera",
+      "genre": "Voxel sandbox",
+      "homepage": "https://lightning323.itch.io/tessera",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://lightning323.itch.io/tessera",
+          "evidence_url": "https://lightning323.itch.io/tessera",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Tessera - Linux arm64. Name-your-price download of an open-source voxel game. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "the-adventure-on-gaz-hd",
+      "title": "The Adventure on Gaz HD",
+      "genre": "2D racing",
+      "homepage": "https://dimft.itch.io/gaz-hd",
+      "builds": [
+        {
+          "version": "1.4 pre-release",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://dimft.itch.io/gaz-hd",
+          "evidence_url": "https://dimft.itch.io/gaz-hd",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: GAZ-HD-1.4-Linux ARM64.zip. Pre-release. Publisher says English is not supported. Steam Frame untested."
         }
       ]
     },
@@ -1146,6 +1727,44 @@
       ]
     },
     {
+      "id": "ticoban",
+      "title": "Ticoban",
+      "genre": "Sokoban / puzzle",
+      "homepage": "https://son-link.itch.io/ticoban",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "tarball",
+          "target": "Portable Linux AArch64 tarball",
+          "url": "https://son-link.itch.io/ticoban",
+          "evidence_url": "https://son-link.itch.io/ticoban",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: ticoban-linux-aarch64.tar.xz. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "tide-y-ing-up",
+      "title": "Tide-y-ing Up",
+      "genre": "Puzzle / relaxing",
+      "homepage": "https://twoe.itch.io/tide-y-ing-up",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://twoe.itch.io/tide-y-ing-up",
+          "evidence_url": "https://twoe.itch.io/tide-y-ing-up",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: game-linux-aarch64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "time-techcrafter",
       "title": "TIME",
       "genre": "Point-and-click puzzle / adventure",
@@ -1165,6 +1784,25 @@
       ]
     },
     {
+      "id": "toney-the-music-tutor",
+      "title": "Toney the Music Tutor",
+      "genre": "Educational / music game",
+      "homepage": "https://izzyboris.itch.io/toney",
+      "builds": [
+        {
+          "version": "0.9.2 (game changelog)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://izzyboris.itch.io/toney",
+          "evidence_url": "https://izzyboris.itch.io/toney",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: Toney the Music Tutor (Linux arm64/Raspberry Pi). Paid PICO-8 educational game; ARM64/Raspberry Pi package explicitly listed, no exact filename disclosed. Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "unciv",
       "title": "Unciv",
       "genre": "Turn-based 4X strategy",
@@ -1180,6 +1818,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.yairm210.unciv. Java strategy game packaged with native aarch64 runtime. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "usagi-survivors",
+      "title": "Usagi Survivors",
+      "genre": "Bullet-heaven / survivor roguelite",
+      "homepage": "https://zeafy.itch.io/usagi-survivors",
+      "builds": [
+        {
+          "version": "0.1.3 (patch notes)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Developer-provided Linux AArch64",
+          "url": "https://zeafy.itch.io/usagi-survivors",
+          "evidence_url": "https://zeafy.itch.io/usagi-survivors",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: usagi-survivors-linux-aarch64.zip. Developer-published Linux AArch64 build. Steam Frame untested."
         }
       ]
     },
@@ -1294,6 +1951,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.xonotic.Xonotic. Native ARM64 Flatpak of free arena FPS; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "yet-another-shit-platforming-game",
+      "title": "YetAnotherShitPlatformingGame",
+      "genre": "3D physics platformer",
+      "homepage": "https://sami9889.itch.io/yetanothershitplatforminggame",
+      "builds": [
+        {
+          "version": "early-access demo (2026)",
+          "kind": "upstream",
+          "format": "deb",
+          "target": "Developer-provided Debian AArch64",
+          "url": "https://sami9889.itch.io/yetanothershitplatforminggame",
+          "evidence_url": "https://sami9889.itch.io/yetanothershitplatforminggame",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "ARM64 download identifier: YetAnotherShitPlatformingGame-Linux-arm64.deb. Early-access demo, developer ARM64 .deb is not a generic installer for SteamOS. Steam Frame untested."
         }
       ]
     }
