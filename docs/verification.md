@@ -7,7 +7,7 @@
 3. **Conversion verified:** a user-owned game is converted with a documented AArch64-native engine/runtime, with a version-specific test showing **actual gameplay** (not just detection or package output). Link the converter/recipe and the report; do not host commercial game assets.
 4. **Device tested:** that exact build is run on identified hardware and OS, with result and reproduction details. Only this level earns a `Tested` label in the catalog.
 
-Do not silently promote a build from tier 1 to tier 3. A community build can be just as native as an upstream build, but record its maintainer and whether an artifact is actually distributed versus locally generated. A *verified conversion* does not imply a publicly available game download.
+Do not silently promote a build from tier 1 to tier 3. A developer-published standalone itch.io ARM64 build is eligible even without a public GitHub source repository, provided the developer's download page explicitly identifies the architecture. Paid availability is not evidence of execution. A community build can be just as native as an upstream build, but record its maintainer and whether an artifact is actually distributed versus locally generated. A *verified conversion* does not imply a publicly available game download.
 
 ## Inspect a Linux binary
 

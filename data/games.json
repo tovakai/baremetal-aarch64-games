@@ -72,7 +72,7 @@
           "url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai",
           "evidence_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility",
           "last_checked": "2026-10-08",
-          "maintainer": "Tovakai (Anthon)",
+          "maintainer": "tovakai",
           "device_tests": [
             {
               "device": "Steam Frame",
@@ -82,7 +82,7 @@
               "report_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility"
             }
           ],
-          "notes": "Player-owned native ARM64 conversion via Tovakai, using pinned Godot 3.7-dev1 and GodotSteam 3.30 compatibility runtime. Completed a full gameplay run without issues. This is not an official ARM64 release. No proprietary game files redistributed."
+          "notes": "Player-owned native ARM64 conversion via tovakai, using pinned Godot 3.7-dev1 and GodotSteam 3.30 compatibility runtime. Completed a full gameplay run without issues. This is not an official ARM64 release. No proprietary game files redistributed."
         }
       ]
     },
@@ -163,6 +163,57 @@
       ]
     },
     {
+      "id": "countdown-count-down",
+      "title": "Countdown Count Down",
+      "genre": "Puzzle / arcade",
+      "homepage": "https://theblackcatgames.itch.io/countdown-countdown",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://theblackcatgames.itch.io/countdown-countdown",
+          "evidence_url": "https://theblackcatgames.itch.io/countdown-countdown",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: countdown-count-down-linux-aarch64.zip. GMTK Game Jam 2026 game; ARM64 Linux ZIP is listed. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "davenstein",
+      "title": "Davenstein",
+      "genre": "Retro FPS / Wolfenstein 3-D reimplementation",
+      "homepage": "https://github.com/Ophois47/Davenstein",
+      "builds": [
+        {
+          "version": "1.4.0",
+          "kind": "community",
+          "format": "appimage",
+          "target": "Generic Linux AArch64 (AppImage)",
+          "url": "https://github.com/Ophois47/Davenstein/releases/download/v1.4.0/Davenstein-1.4.0-aarch64.AppImage",
+          "evidence_url": "https://github.com/Ophois47/Davenstein/releases/tag/v1.4.0",
+          "last_checked": "2026-10-08",
+          "maintainer": "Ophois47",
+          "device_tests": [],
+          "notes": "Native ARM64 game/reimplementation of Wolfenstein 3-D; packaged AppImage explicitly listed in the maintainer's release. Not an official id Software release. Unverified on Steam Frame."
+        },
+        {
+          "version": "1.4.0",
+          "kind": "community",
+          "format": "tarball",
+          "target": "Generic Linux AArch64 (portable tar.gz)",
+          "url": "https://github.com/Ophois47/Davenstein/releases/download/v1.4.0/Davenstein-1.4.0-linux-aarch64.tar.gz",
+          "evidence_url": "https://github.com/Ophois47/Davenstein/releases/tag/v1.4.0",
+          "last_checked": "2026-10-08",
+          "maintainer": "Ophois47",
+          "device_tests": [],
+          "notes": "Separate portable ARM64 Linux archive of the same version. Not an official Wolfenstein release; Steam Frame untested."
+        }
+      ]
+    },
+    {
       "id": "ddnet",
       "title": "DDNet",
       "genre": "Co-op platformer",
@@ -182,6 +233,26 @@
       ]
     },
     {
+      "id": "devilutionx",
+      "title": "DevilutionX",
+      "genre": "Action RPG / Diablo engine recreation",
+      "homepage": "https://github.com/diasurgical/DevilutionX",
+      "builds": [
+        {
+          "version": "1.5.5",
+          "kind": "community",
+          "format": "tarball",
+          "target": "Generic Linux AArch64 (tar.xz)",
+          "url": "https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-linux-aarch64.tar.xz",
+          "evidence_url": "https://github.com/diasurgical/DevilutionX/releases/tag/1.5.5",
+          "last_checked": "2026-10-08",
+          "maintainer": "DevilutionX contributors",
+          "device_tests": [],
+          "notes": "Open-source engine recreation of Diablo (1996). Requires legitimately obtained original Diablo data or supported shareware data. A Linux AArch64 archive is a published release asset; Steam Frame play has not been verified."
+        }
+      ]
+    },
+    {
       "id": "doukutsu-rs",
       "title": "doukutsu-rs (Cave Story engine)",
       "genre": "Action adventure / platformer",
@@ -197,6 +268,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.doukutsu_rs.doukutsu-rs. Modern Rust Cave Story engine; requires user-provided compatible Cave Story game data. Native ARM64 runtime availability does not mean copyrighted game data is included. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "downcycling",
+      "title": "Downcycling",
+      "genre": "Puzzle / stealth",
+      "homepage": "https://fcolor04.itch.io/downcycling",
+      "builds": [
+        {
+          "version": "6 (2025 prototype)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://fcolor04.itch.io/downcycling",
+          "evidence_url": "https://fcolor04.itch.io/downcycling",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: downcycling-linux-arm64.zip. Godot stealth/puzzle prototype, Linux ARM64 ZIP marked version 6. Steam Frame not tested."
         }
       ]
     },
@@ -297,6 +387,25 @@
       ]
     },
     {
+      "id": "go-go-kobold",
+      "title": "Go Go Kobold!",
+      "genre": "Puzzle / sorting",
+      "homepage": "https://achie.itch.io/go-go-kobold",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://achie.itch.io/go-go-kobold",
+          "evidence_url": "https://achie.itch.io/go-go-kobold",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: go-go-kobold-linux-aarch64.zip. Self-published native ARM64 export; short Game Boy-style puzzle game. Steam Frame not tested."
+        }
+      ]
+    },
+    {
       "id": "half-life-alyx",
       "title": "Half-Life: Alyx",
       "genre": "VR first-person shooter",
@@ -340,6 +449,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.hedgewars.Hedgewars. Hedgehog-themed artillery game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "jigs-saw-puzzler",
+      "title": "Jig's Saw Puzzler",
+      "genre": "Jigsaw / puzzle",
+      "homepage": "https://abionic.itch.io/jigsaw-puzzler",
+      "builds": [
+        {
+          "version": "0.1 beta 2",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://abionic.itch.io/jigsaw-puzzler",
+          "evidence_url": "https://abionic.itch.io/jigsaw-puzzler",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: jigs-saw-puzzler-v0.1beta2-linux-arm64.zip. Godot jigsaw puzzle beta with developer-published Linux ARM64 ZIP. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "koalas-to-the-max",
+      "title": "Koalas to the Max",
+      "genre": "Casual / interactive puzzle",
+      "homepage": "https://jespiron.itch.io/koalas-to-the-max",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://jespiron.itch.io/koalas-to-the-max",
+          "evidence_url": "https://jespiron.itch.io/koalas-to-the-max",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: linux-aarch64.zip. Self-published Linux ARM64 ZIP. This interactive image game creates a local data directory; Steam Frame not tested."
         }
       ]
     },
@@ -395,7 +542,7 @@
           "url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai",
           "evidence_url": "https://github.com/tovakai/multi-engine-game-conversion-framework-by-tovakai#tested-game-compatibility",
           "last_checked": "2026-10-08",
-          "maintainer": "Tovakai (Anthon)",
+          "maintainer": "tovakai",
           "device_tests": [
             {
               "device": "Steam Frame",
@@ -425,6 +572,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: io.github.naikari.Naikari. Third-party Flatpak of space exploration game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "never-gives-up-her-dead",
+      "title": "Never Gives Up Her Dead",
+      "genre": "Science-fiction interactive fiction",
+      "homepage": "https://mathbrush.itch.io/never-gives-up-her-dead",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://mathbrush.itch.io/never-gives-up-her-dead",
+          "evidence_url": "https://mathbrush.itch.io/never-gives-up-her-dead",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: NeverGivesUpHerDead-linux-arm64.zip. Commercial interactive fiction with a Linux ARM64 packaged interpreter. The ARM64 ZIP is listed in the higher-price ($12) purchase tier, not the $5 entry tier. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "not-enough-fuel-vr",
+      "title": "Not Enough Fuel VR",
+      "genre": "VR bullet hell / action",
+      "homepage": "https://monoidalberry.itch.io/not-enough-fuel",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://monoidalberry.itch.io/not-enough-fuel",
+          "evidence_url": "https://monoidalberry.itch.io/not-enough-fuel",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: Not Enough Fuel - Linux (arm64).zip. Godot XR game. Developer has tested Linux PCVR and Quest 2, but explicitly states that this ARM64 build has NOT been tested on Steam Frame. No headset compatibility is claimed."
         }
       ]
     },
@@ -600,6 +785,101 @@
       ]
     },
     {
+      "id": "pond-protect",
+      "title": "Pond Protect",
+      "genre": "Arcade shoot-'em-up",
+      "homepage": "https://achie.itch.io/pond-protect",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://achie.itch.io/pond-protect",
+          "evidence_url": "https://achie.itch.io/pond-protect",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: pond-protect-linux-aarch64.zip. Self-published Usagi game with native ARM64 ZIP. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "project-aethia-demo",
+      "title": "Project Aethia - Demo",
+      "genre": "3D adventure / parkour / puzzle",
+      "homepage": "https://tronusgames.itch.io/project-aethia-demo",
+      "builds": [
+        {
+          "version": "0.1 (2022 demo)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://tronusgames.itch.io/project-aethia-demo",
+          "evidence_url": "https://tronusgames.itch.io/project-aethia-demo/devlog/336474/project-aethia-demo-prototype-small-builds-update",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: project-aethia-demo-linuxaarch64.zip. A 2022 prototype demo (not a full game release). Developer explicitly announced Linux ARM64 build. Package is large (approx. 2.6 GB); Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "querysoul-prototype",
+      "title": "QuerySoul: Prototype",
+      "genre": "Action roguelike / programming puzzle",
+      "homepage": "https://acmwq.itch.io/querysoul-prototype",
+      "builds": [
+        {
+          "version": "prototype (unversioned)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://acmwq.itch.io/querysoul-prototype",
+          "evidence_url": "https://acmwq.itch.io/querysoul-prototype",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: QuerySoul-linux-arm64.zip. Prototype using SQL-like commands to change the game world; developer-published ARM64 Linux ZIP. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "racing-dash-2d",
+      "title": "Racing Dash 2D",
+      "genre": "Arcade racer",
+      "homepage": "https://wlhq.itch.io/racing-dash-2d",
+      "builds": [
+        {
+          "version": "0.2.8",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://wlhq.itch.io/racing-dash-2d",
+          "evidence_url": "https://wlhq.itch.io/racing-dash-2d/devlog/877975/racing-dash-version-028",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: Linux-arm64.zip. Developer's 0.2.8 devlog explicitly lists a native ARM64 Linux ZIP; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "rated-t-for-trash",
+      "title": "Rated T for Trash",
+      "genre": "2.5D clicker / adventure",
+      "homepage": "https://furioustierren.itch.io/rated-t-for-trash",
+      "builds": [
+        {
+          "version": "prototype (unversioned)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://furioustierren.itch.io/rated-t-for-trash",
+          "evidence_url": "https://furioustierren.itch.io/rated-t-for-trash",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: Linux ARM64.zip. Godot Wild Jam prototype with developer-published ARM64 Linux ZIP; Steam Frame not tested."
+        }
+      ]
+    },
+    {
       "id": "raze",
       "title": "Raze",
       "genre": "Classic FPS / Build engine port",
@@ -615,6 +895,44 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: org.zdoom.Raze. Native Build-engine source port for Duke Nukem 3D, Blood and other games. Commercial original game data must be obtained separately; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "ricochedda",
+      "title": "Ricochedda",
+      "genre": "Puzzle / arcade",
+      "homepage": "https://achie.itch.io/ricochedda",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://achie.itch.io/ricochedda",
+          "evidence_url": "https://achie.itch.io/ricochedda",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: ricochedda-linux-aarch64.zip. Developer-published ARM64 Linux ZIP for the cheese-throwing puzzle game; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "riftborne",
+      "title": "Riftborne",
+      "genre": "Space strategy / 4X",
+      "homepage": "https://riftborne.itch.io/riftborne",
+      "builds": [
+        {
+          "version": "11.83",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://riftborne.itch.io/riftborne",
+          "evidence_url": "https://riftborne.itch.io/riftborne",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: riftborne-linux-arm64.zip. Paid original indie game. Developer sells an ARM64 Linux ZIP on itch.io; purchase is required. Steam Frame not tested."
         }
       ]
     },
@@ -733,6 +1051,25 @@
       ]
     },
     {
+      "id": "terminalpolyominos",
+      "title": "terminalpolyominos",
+      "genre": "Arcade / falling-block puzzle",
+      "homepage": "https://meepm0rp.itch.io/terminalpolyominos",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "appimage",
+          "target": "Linux AArch64 · itch.io AppImage",
+          "url": "https://meepm0rp.itch.io/terminalpolyominos",
+          "evidence_url": "https://meepm0rp.itch.io/terminalpolyominos",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: linux aarch64 appimage. itch.io explicitly links an external Linux AArch64 AppImage. Actual external release version not established; Steam Frame not tested."
+        }
+      ]
+    },
+    {
       "id": "wesnoth",
       "title": "The Battle for Wesnoth",
       "genre": "Turn-based strategy",
@@ -748,6 +1085,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Use the versioned game package, not the architecture-independent 'wesnoth' metapackage. SteamOS/Frame untested."
+        }
+      ]
+    },
+    {
+      "id": "the-collector",
+      "title": "The Collector",
+      "genre": "Adventure platformer / thriller",
+      "homepage": "https://kazuren.itch.io/the-collector",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://kazuren.itch.io/the-collector",
+          "evidence_url": "https://kazuren.itch.io/the-collector",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: linux-arm64.zip. Publisher lists separate Linux ARM64 and ARM32 ZIP files; this entry refers to ARM64 only. Steam Frame not tested."
         }
       ]
     },
@@ -786,6 +1142,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.sourceforge.uqm_mods.UQM-MegaMod. Standalone Ur-Quan Masters high-definition community mod; package explicitly supports ARM64. Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "time-techcrafter",
+      "title": "TIME",
+      "genre": "Point-and-click puzzle / adventure",
+      "homepage": "https://techcrafter-jw.itch.io/time",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://techcrafter-jw.itch.io/time",
+          "evidence_url": "https://techcrafter-jw.itch.io/time",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: linux-aarch64.zip. Linux ARM64 ZIP requires a compatible AArch64 Java runtime (OpenJDK 17 may be needed); only the AMD64 bundle is described as including Java. Not tested on Steam Frame."
         }
       ]
     },
@@ -843,6 +1218,25 @@
           "last_checked": "2026-10-08",
           "device_tests": [],
           "notes": "Flathub lists aarch64 in Available Architectures. App ID: net.wz2100.wz2100. Native RTS with both Vulkan and OpenGL-based backends; Steam Frame not tested."
+        }
+      ]
+    },
+    {
+      "id": "wicked-quest",
+      "title": "Wicked Quest",
+      "genre": "Platformer / audio game",
+      "homepage": "https://stormdragon2976.itch.io/wicked-quest",
+      "builds": [
+        {
+          "version": "unversioned (itch.io)",
+          "kind": "upstream",
+          "format": "standalone",
+          "target": "Linux AArch64 · itch.io ZIP",
+          "url": "https://stormdragon2976.itch.io/wicked-quest",
+          "evidence_url": "https://stormdragon2976.itch.io/wicked-quest",
+          "last_checked": "2026-10-08",
+          "device_tests": [],
+          "notes": "Developer download: wicked_quest-linux-aarch64.zip. Paid audio-focused side-scrolling platformer with ARM64 Linux ZIP. Purchase is required; Steam Frame not tested."
         }
       ]
     },
